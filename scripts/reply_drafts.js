@@ -50,7 +50,7 @@ const reviews = jsonl(path.join(ROOT, 'data', 'store', `${APP}.jsonl`));
 const provider = ['jev', 'llm', 'rules'].find(p => fs.existsSync(path.join(ROOT, 'data', 'labels', `${APP}.${p}.jsonl`)));
 const labels = new Map(jsonl(path.join(ROOT, 'data', 'labels', `${APP}.${provider}.jsonl`)).map(l => [l.reviewId, l]));
 const asOf = Math.max(...reviews.map(r => Date.parse(r.date)));
-const asOfDate = new Date(asOf).toISOString().slice(0, 10);
+const asOfDate = process.env.REPORT_DATE || new Date().toISOString().slice(0, 10);   // filed by run date, like report.js
 
 const targets = reviews
   .filter(r => r.score <= 2 && !r.replyText && Date.parse(r.date) > asOf - DAYS * 864e5)

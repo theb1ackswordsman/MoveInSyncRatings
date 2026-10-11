@@ -271,7 +271,7 @@ export default function App({ data }) {
     <main className="page">
       <header className="bar">
         <div className="brand">Ratings brief <span>for the MoveInSync employee app</span></div>
-        <div className="bar-meta"><span>Reviews up to {data.asOf}</span><span>Updates every Monday</span></div>
+        <div className="bar-meta"><span>Updated {data.runDate ?? data.asOf}, reviews up to {data.asOf}</span><span>Updates every Monday</span></div>
       </header>
 
       <div className="verdict">

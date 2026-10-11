@@ -52,7 +52,8 @@ const metaNow = metaFiles.length ? JSON.parse(fs.readFileSync(path.join(metaDir,
 const spot = ['spotcheck_jev_round2_report.json', 'spotcheck_jev_round1_report.json', 'spotcheck_jev_report.json'].map(f => path.join(ROOT, 'validation', f)).filter(fs.existsSync).map(f => JSON.parse(fs.readFileSync(f, 'utf8')));
 
 const asOf = Math.max(...reviews.map(r => r.t));
-const asOfDate = new Date(asOf).toISOString().slice(0, 10);
+const asOfDate = new Date(asOf).toISOString().slice(0, 10);   // newest review in the data
+const runDate = process.env.REPORT_DATE || new Date().toISOString().slice(0, 10);   // reports are filed by the day they ran, so a quiet week still compares with last week
 // Reviews the classifier should have labelled (same scope as classify.js) but has not, e.g. when API credit ran out
 const wordsOf = t => (t || '').trim().split(/\s+/).filter(Boolean).length;
 const unlabelled = reviews.filter(r => r.t > asOf - 365 * DAY && (r.score <= 3 || wordsOf(r.text) >= 15) && !labels.has(r.reviewId)).length;
@@ -136,7 +137,7 @@ const unanswered = reviews.filter(within(60)).filter(r => r.score <= 2 && !r.rep
 
 const flagsCount = f => low90.filter(r => lab(r).flags?.[f]).length;
 const metrics = {
-  app: APP, asOf: asOfDate, generatedAt: new Date().toISOString(), labelProvider: provider, labelModel: labels.size ? [...labels.values()][0].model : null, taxonomyVersion: labels.size ? [...labels.values()][0].taxonomyVersion : null,
+  app: APP, asOf: asOfDate, runDate, generatedAt: new Date().toISOString(), labelProvider: provider, labelModel: labels.size ? [...labels.values()][0].model : null, taxonomyVersion: labels.size ? [...labels.values()][0].taxonomyVersion : null,
   store: metaNow ? { collectedAt: metaNow.collectedAt, score: metaNow.score, ratings: metaNow.ratings, reviews: metaNow.reviews, histogram: metaNow.histogram, version: metaNow.version, updated: metaNow.updated } : null,
   windows, weekly, low90: { n: low90.length, noSignalN: low90.length - withSignal90.length, withSignalN: withSignal90.length, escalationFailureN: flagsCount('escalation_failure'), employerPolicyN: flagsCount('mentions_employer_or_policy'), recentUpdateN: flagsCount('mentions_recent_update'), safetyN: flagsCount('safety_concern') },
   causeSplit90: Object.fromEntries(Object.keys(TAX.causes).map(c => [c, withSignal90.filter(r => lab(r).cause === c).length])),
@@ -147,7 +148,7 @@ const metrics = {
 
 // ---------- what changed since the previous report ----------
 const reportsDir = path.join(ROOT, 'reports');
-const prevDir = fs.existsSync(reportsDir) ? fs.readdirSync(reportsDir).filter(d => d < asOfDate && fs.existsSync(path.join(reportsDir, d, 'metrics.json'))).sort().at(-1) : null;
+const prevDir = fs.existsSync(reportsDir) ? fs.readdirSync(reportsDir).filter(d => d < runDate && fs.existsSync(path.join(reportsDir, d, 'metrics.json'))).sort().at(-1) : null;
 const prev = prevDir ? JSON.parse(fs.readFileSync(path.join(reportsDir, prevDir, 'metrics.json'), 'utf8')) : null;
 const changes = [];
 if (prev) {
@@ -164,10 +165,10 @@ if (prev) {
   const prevFlags = new Set((prev.versionFlags || []).filter(v => v.z >= 2).map(v => v.version));
   for (const v of versionFlags.filter(v => v.z >= 2 && !prevFlags.has(v.version))) changes.push(`Newly flagged version ${v.version}: 1★ ${v.oneStarPct}% vs ${v.baselineOneStarPct}% baseline (n=${v.n}).`);
 }
-metrics.changesSincePrevious = { previous: prev?.asOf ?? null, items: changes };
+metrics.changesSincePrevious = { previous: prev ? (prev.runDate ?? prev.asOf) : null, items: changes };
 
 // ---------- write outputs ----------
-const outDir = path.join(reportsDir, asOfDate);
+const outDir = path.join(reportsDir, runDate);
 fs.mkdirSync(outDir, { recursive: true });
 safeWrite(path.join(outDir, 'metrics.json'), JSON.stringify(metrics, null, 2));
 
@@ -188,7 +189,7 @@ const top = issues.filter(i => i.issue !== 'other').slice(0, 5);
 const flagged = versionFlags.filter(v => v.z >= 2);
 const lastReply = replyHistory;
 const coverageNote = (staleLabels || unlabelled) ? `\n> **Incomplete labels:** ${staleLabels + unlabelled} in-scope reviews are not yet labelled with the current taxonomy and are left out of the issue shares until \`npm run classify\` labels them.\n` : '';
-const md = `# How are our Play Store ratings? — ${asOfDate}
+const md = `# How are our Play Store ratings? — ${runDate}
 
 *${APP} · reviews up to ${asOfDate} · labels: ${provider} (${metrics.labelModel ?? 'n/a'}, taxonomy ${metrics.taxonomyVersion ?? 'n/a'})${metrics.validation.length ? ` · spot-check: ${metrics.validation.map(v => `${v.round} ${v.correct}/${v.checked}`).join(', ')}` : ''}*
 
@@ -199,7 +200,7 @@ ${coverageNote}
 - **Developer replies to 1-2★ reviews, last 30 days: ${w.d30.lowRepliedN} of ${w.d30.lowN} (${w.d30.lowRepliedPct}%).** ${unanswered.length} critical reviews from the last 60 days have no reply.
 ${flagged.length ? `- **Version alert:** ${flagged.map(v => `${v.version} has ${v.oneStarPct}% 1★ vs ${v.baselineOneStarPct}% baseline (n=${v.n}); crash/won't-open in ${v.crashMentionsN} of ${v.lowStarN} low-star reviews`).join('; ')}.` : '- No version stands out from the baseline this run.'}
 
-## What changed since the last run${prev ? ` (${prev.asOf})` : ''}
+## What changed since the last run${prev ? ` (${prev.runDate ?? prev.asOf})` : ''}
 ${prev ? (changes.length ? changes.map(c => `- ${c}`).join('\n') : '- No material changes.') : '- First run: nothing to compare yet. The next run will list changes here.'}
 
 ## Top issues in 1-2★ reviews (last 90 days)
@@ -272,5 +273,5 @@ fs.writeFileSync(path.join(ROOT, 'docs', 'data', 'brief.js'), `window.__BRIEF__ 
 safeWrite(path.join(ROOT, 'docs', 'data', 'brief.json'), JSON.stringify(pageData, null, 2));
 safeWrite(path.join(ROOT, 'docs', 'brief.md'), md);
 
-console.log(`Report for ${asOfDate} (labels: ${provider}) → reports/${asOfDate}/ and docs/index.html`);
-console.log(`  ${issues.length} issues ranked; ${flagged.length} version alert(s); ${unanswered.length} unanswered critical reviews; compared with: ${prev?.asOf ?? 'nothing (first run)'}`);
+console.log(`Report for ${runDate}, reviews up to ${asOfDate} (labels: ${provider}) → reports/${runDate}/ and docs/data/`);
+console.log(`  ${issues.length} issues ranked; ${flagged.length} version alert(s); ${unanswered.length} unanswered critical reviews; compared with: ${prev ? (prev.runDate ?? prev.asOf) : 'nothing (first run)'}`);
