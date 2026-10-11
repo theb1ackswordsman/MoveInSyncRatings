@@ -1,0 +1,8 @@
+node_modules/
+# Untouched API responses include reviewer names and photos: keep local only
+data/raw/
+*.tmp
+.env
+# per-run API error dumps
+data/labels/*.errors.json
+.env.*

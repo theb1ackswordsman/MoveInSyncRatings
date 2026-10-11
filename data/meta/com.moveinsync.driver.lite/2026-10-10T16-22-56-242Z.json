@@ -1,0 +1,21 @@
+{
+  "runId": "2026-10-10T16-22-56-242Z",
+  "collectedAt": "2026-10-10T16:22:56.242Z",
+  "title": "Moveinsync Partner - Lite",
+  "score": 4.25,
+  "scoreText": "4.2",
+  "ratings": 701,
+  "reviews": 111,
+  "histogram": {
+    "1": 91,
+    "2": 21,
+    "3": 21,
+    "4": 56,
+    "5": 511
+  },
+  "installs": "100,000+",
+  "version": "10.2.1",
+  "updated": "2026-08-31T18:57:23.000Z",
+  "recentChanges": null,
+  "androidVersion": "6.0"
+}

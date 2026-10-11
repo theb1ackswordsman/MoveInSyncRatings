@@ -1,0 +1,40 @@
+name: Weekly Play Store ratings brief
+on:
+  schedule:
+    - cron: '30 2 * * 1'   # Mondays 08:00 IST
+  workflow_dispatch: {}     # "Run workflow" button for on-demand runs
+permissions:
+  contents: write
+concurrency:
+  group: weekly-brief
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run scrape
+      - name: Check the API key is set
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: if [ -z "$OPENROUTER_API_KEY" ]; then echo "::warning::OPENROUTER_API_KEY secret is not set, so labels fall back to keyword rules"; fi
+      - name: Classify new reviews (Jev if OPENROUTER_API_KEY secret is set, keyword rules otherwise)
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: npm run classify
+      - name: Build the brief, action queue and reply drafts
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: |
+          npm run replies
+          npm run report
+      - name: Commit updated store and run log
+        run: |
+          git config user.name "ratings-bot"
+          git config user.email "ratings-bot@users.noreply.github.com"
+          git add -A data reports docs   # data/raw stays out via .gitignore
+          git diff --cached --quiet || git commit -m "data: weekly collection $(date -u +%F)"
+          git push

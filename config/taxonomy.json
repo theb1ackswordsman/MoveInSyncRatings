@@ -1,0 +1,312 @@
+{
+  "_comment": "Single source of truth for review classification. Built from hand-reading 49 one-star reviews (reading/notes_set_A_handwritten.txt). Changing anything here changes taxonomyVersion, and classify.js re-labels affected reviews on its next run. Owners are assigned from the issue, not by the model. v2 (2026-10-11): after spot-check round 1 (45/50): tightened no_signal, moved 'not installed from Play Store' to app_crash_or_wont_open, routing owner -> Product.",
+  "issues": {
+    "app_crash_or_wont_open": {
+      "label": "App crashes, won't open, or freezes",
+      "description": "The app closes by itself, won't launch, gets stuck or freezes, a screen is blank, or a feature crashes when tapped. Includes the app refusing to open with an error such as 'not installed from Play Store' or needing to be reinstalled every few days. Reinstalling or clearing cache did not help.",
+      "owner": "Engineering",
+      "keywords": [
+        "crash",
+        "crashing",
+        "not opening",
+        "doesn't open",
+        "does not open",
+        "won't open",
+        "wont open",
+        "not open",
+        "stuck",
+        "freez",
+        "hang",
+        "blank screen",
+        "white screen",
+        "force close",
+        "closes automatically",
+        "keeps closing",
+        "not working",
+        "doesn't work",
+        "does not work",
+        "not loading",
+        "not installed from play",
+        "bug"
+      ]
+    },
+    "login_otp_session": {
+      "label": "Login, OTP, or getting logged out",
+      "description": "Cannot log in or register, OTP not received or rejected, logged out repeatedly, or account or phone number blocked. (An app that will not open at all, including with a 'not installed from Play Store' error, is app_crash_or_wont_open.)",
+      "owner": "Engineering",
+      "keywords": [
+        "otp",
+        "login",
+        "log in",
+        "logged out",
+        "logout",
+        "log out",
+        "sign in",
+        "register",
+        "registration",
+        "verification",
+        "blocked",
+        "password",
+        "email id",
+        "mobile number not"
+      ]
+    },
+    "booking_schedule": {
+      "label": "Booking or scheduling a ride",
+      "description": "Cannot book, cancel or change a cab or shuttle; booking cutoff windows such as must book 12 hours ahead; roster or calendar problems; booking silently not created; seats unavailable.",
+      "owner": "Product",
+      "keywords": [
+        "book",
+        "booking",
+        "schedule",
+        "roster",
+        "calendar",
+        "cancel",
+        "cutoff",
+        "cut off",
+        "hours before",
+        "hours prior",
+        "seat",
+        "reschedul",
+        "adhoc",
+        "ad hoc"
+      ]
+    },
+    "boarding_checkin": {
+      "label": "Boarding, check-in, QR or no-show marking",
+      "description": "Problems at pickup: QR or OTP boarding fails, check-in does not register, location accuracy blocks boarding, or the employee is wrongly marked as a no-show.",
+      "owner": "Product",
+      "keywords": [
+        "qr",
+        "scan",
+        "check in",
+        "check-in",
+        "checkin",
+        "no show",
+        "no-show",
+        "noshow",
+        "board",
+        "boarding"
+      ]
+    },
+    "routing_pickup_time": {
+      "label": "Routing, ride length, or pickup time",
+      "description": "Long or illogical routes, pooled with people from far-off areas, very early pickup times, rides taking far longer than the direct trip, wrong pickup or drop sequence. The route is planned by the MoveInSync routing engine within limits the employer sets (fleet size, buffers, max ride time).",
+      "owner": "Product",
+      "keywords": [
+        "route",
+        "routing",
+        "hours to reach",
+        "hrs",
+        "2 hours",
+        "early pickup",
+        "pickup time",
+        "pick up time",
+        "too early",
+        "long route",
+        "detour",
+        "drop time",
+        "sequence",
+        "pooling",
+        "pooled"
+      ]
+    },
+    "tracking_eta": {
+      "label": "Live tracking or ETA",
+      "description": "Vehicle location not shown or not updating, GPS lag, ETA wrong or constantly changing, cannot see the assigned cab on the map.",
+      "owner": "Engineering",
+      "keywords": [
+        "track",
+        "tracking",
+        "gps",
+        "eta",
+        "live location",
+        "map",
+        "location not",
+        "real time",
+        "realtime",
+        "not updat"
+      ]
+    },
+    "notifications": {
+      "label": "Notifications",
+      "description": "Too many or repeated notifications or pop-ups, missing notifications, or notifications that pile up and cannot be cleared.",
+      "owner": "Product",
+      "keywords": [
+        "notification",
+        "pop up",
+        "popup",
+        "pop-up",
+        "alert",
+        "reminder",
+        "spam"
+      ]
+    },
+    "ui_confusing": {
+      "label": "Confusing design or recent UI change",
+      "description": "The app works but is hard to use: confusing flows, too many steps, a recent redesign that made things worse, information not visible (e.g. driver number), repeated consent prompts.",
+      "owner": "Product",
+      "keywords": [
+        "ui",
+        "user friendly",
+        "user-friendly",
+        "confusing",
+        "complicated",
+        "interface",
+        "design",
+        "new update",
+        "latest update",
+        "old version",
+        "steps",
+        "difficult to use",
+        "hard to use",
+        "not visible"
+      ]
+    },
+    "performance_slow": {
+      "label": "Slow, laggy, battery or data drain",
+      "description": "The app loads slowly, lags, takes long to respond, or drains battery or data, without fully crashing.",
+      "owner": "Engineering",
+      "keywords": [
+        "slow",
+        "lag",
+        "laggy",
+        "takes time",
+        "loading",
+        "battery",
+        "heavy",
+        "data usage"
+      ]
+    },
+    "driver_vehicle_service": {
+      "label": "Driver, vehicle or cab service (operations)",
+      "description": "Cab late or did not come, cabs not assigned on time, driver behaviour, vehicle condition, AC, cleanliness, driver did not wait or skipped the pickup, or the transport or cab service described as bad in general. The service, not the app.",
+      "owner": "Transport Ops",
+      "keywords": [
+        "driver",
+        "late",
+        "delay",
+        "didn't come",
+        "did not come",
+        "not come",
+        "cab not",
+        "vehicle",
+        "ac ",
+        "dirty",
+        "rude",
+        "behav",
+        "waited",
+        "waiting",
+        "skipped",
+        "missed"
+      ]
+    },
+    "safety_incident": {
+      "label": "Safety concern",
+      "description": "Any personal safety concern: harassment or misbehaviour, unsafe driving, women dropped alone or before their stop, escort or SOS problems, feeling unsafe.",
+      "owner": "Safety",
+      "keywords": [
+        "safety",
+        "safe",
+        "unsafe",
+        "harass",
+        "misbehav",
+        "sos",
+        "escort",
+        "girl",
+        "woman",
+        "women",
+        "lady",
+        "night",
+        "rash driving",
+        "drunk"
+      ]
+    },
+    "support_escalation": {
+      "label": "Support unreachable or complaint ignored",
+      "description": "Helpdesk or transport desk does not answer or disconnects, raised a complaint or ticket and nothing happened, no response, nobody takes responsibility.",
+      "owner": "Customer Implementation",
+      "keywords": [
+        "helpdesk",
+        "help desk",
+        "support",
+        "customer care",
+        "complain",
+        "complaint",
+        "ticket",
+        "no response",
+        "not responding",
+        "nobody",
+        "no one",
+        "escalat",
+        "call center",
+        "call centre",
+        "disconnect"
+      ]
+    },
+    "profile_settings": {
+      "label": "Profile, address or settings",
+      "description": "Cannot change home address, pickup point, phone number, shift or other profile details; settings do not save.",
+      "owner": "Product",
+      "keywords": [
+        "address",
+        "change my",
+        "update my",
+        "profile",
+        "pickup point",
+        "pick up point",
+        "location change",
+        "home location",
+        "setting"
+      ]
+    },
+    "praise": {
+      "label": "Positive, no complaint",
+      "description": "The reviewer is satisfied: praise, thanks, recommends the app, with no complaint.",
+      "owner": "None",
+      "keywords": [
+        "good",
+        "great",
+        "nice",
+        "excellent",
+        "awesome",
+        "helpful",
+        "love",
+        "best",
+        "useful",
+        "easy",
+        "thank"
+      ]
+    },
+    "other": {
+      "label": "Other specific issue",
+      "description": "A specific complaint or request that fits none of the other categories.",
+      "owner": "Unassigned",
+      "keywords": []
+    },
+    "no_signal": {
+      "label": "No usable detail",
+      "description": "No target at all: only a verdict such as 'worst app', 'bad', 'useless', 'pathetic', an emoji, or a rating with no words. If the review names what is bad (the transport, cab service, driver, app opening, a bug, booking, tracking), it is NOT no_signal: use the matching category, however short.",
+      "owner": "None",
+      "keywords": []
+    }
+  },
+  "causes": {
+    "app": "Something the app itself does wrong: a bug, crash, login failure, confusing design, missing feature, tracking defect, notification behaviour, or the routing engine's choices (route order, pooling).",
+    "ops": "The transport service on the ground: drivers, vehicles, lateness, cab assignment, helpdesk staff and phone lines, or the service described as bad in general.",
+    "employer_config": "A rule the employer or company sets: booking cutoff windows, shift or roster rules, eligibility, pickup buffers, fleet size, max ride time. The user often blames the app for it.",
+    "unclear": "Not enough detail to tell, or no complaint at all."
+  },
+  "flags": {
+    "escalation_failure": "The reviewer says they already complained, called, or raised a ticket (with the helpdesk, transport desk, employer or MoveInSync) and it was not resolved or nobody responded.",
+    "mentions_employer_or_policy": "The review names the reviewer's company or employer, or refers to a company rule, policy, roster or eligibility.",
+    "mentions_recent_update": "The review says the problem started after a recent app update or new version, or compares unfavourably with an older version.",
+    "safety_concern": "The review raises any personal safety concern, however briefly."
+  },
+  "severity": [
+    "No real complaint, or praise.",
+    "Annoyance: the app or service is inconvenient but the person still gets where they need to go.",
+    "Blocked: the person could not use a key function (open the app, log in, book, track, board) or missed or nearly missed a ride.",
+    "Critical: a safety concern, or repeated total failure that leaves the person without transport."
+  ]
+}

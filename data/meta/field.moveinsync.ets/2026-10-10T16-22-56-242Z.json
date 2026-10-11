@@ -1,0 +1,21 @@
+{
+  "runId": "2026-10-10T16-22-56-242Z",
+  "collectedAt": "2026-10-10T16:22:56.242Z",
+  "title": "MoveInSync - Field app",
+  "score": 4.0833335,
+  "scoreText": "4.1",
+  "ratings": 24,
+  "reviews": 8,
+  "histogram": {
+    "1": 5,
+    "2": 0,
+    "3": 1,
+    "4": 0,
+    "5": 18
+  },
+  "installs": "5,000+",
+  "version": "1.0.92",
+  "updated": "2026-09-29T13:10:39.000Z",
+  "recentChanges": "Resolve minor bugs.",
+  "androidVersion": "7.0"
+}

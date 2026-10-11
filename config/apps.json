@@ -1,0 +1,52 @@
+{
+  "_comment": "Every Android app published under the MoveInSync developer account (Play dev id 7798917469890870335), listed 2026-10-10. Case study scope: employee app only (inScope=true). Flip inScope to add others; no code changes needed. historyDays = how far back to collect (null = full history).",
+  "country": "in",
+  "langs": [
+    "en"
+  ],
+  "historyDays": 365,
+  "apps": [
+    {
+      "appId": "com.moveinsync.ets",
+      "name": "MoveInSync (employee app)",
+      "audience": "employee",
+      "inScope": true
+    },
+    {
+      "appId": "com.moveinsync.driver.dco",
+      "name": "MoveInSync - Driver Partner",
+      "audience": "driver",
+      "inScope": false
+    },
+    {
+      "appId": "com.moveinsync.driver.lite",
+      "name": "Moveinsync Partner - Lite",
+      "audience": "driver",
+      "inScope": false
+    },
+    {
+      "appId": "field.moveinsync.ets",
+      "name": "MoveInSync - Field app",
+      "audience": "ops/admin",
+      "inScope": false
+    },
+    {
+      "appId": "com.workinsync.meeting",
+      "name": "MoveInSync Workplace",
+      "audience": "workplace kiosk",
+      "inScope": false
+    },
+    {
+      "appId": "com.moveinsync.publictransit",
+      "name": "TransitInSync",
+      "audience": "public transit",
+      "inScope": false
+    },
+    {
+      "appId": "com.moveinsync.driverbook",
+      "name": "Driver Book",
+      "audience": "driver",
+      "inScope": false
+    }
+  ]
+}

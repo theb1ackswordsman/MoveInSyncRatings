@@ -1,0 +1,97 @@
+{
+  "_comment": "Human-written guidance per issue, merged with fresh numbers on every report run to produce action_queue.csv. Edit freely; the numbers come from the data, these words come from us.",
+  "app_crash_or_wont_open": {
+    "stage": "Launch / stability",
+    "app_side_fix": "Find and fix launch failures on the current version; if an install-source or integrity check blocks genuine Play installs, make it fail open with logging instead of locking users out.",
+    "first_diagnostic_check": "Play Console > Android vitals: crash and ANR rate for the newest version vs the previous one, split by device and Android version. Search crash logs for the 'not installed from Play Store' path.",
+    "missing_data": "Android vitals by version/device; integrity-check failure counts; whether the check is configurable per client; share of users on company-managed (MDM) devices.",
+    "success_metric": "Crash/launch-failure mentions in 1-2★ reviews back to the pre-release share within 2 releases; user-perceived crash rate below Play's bad-behaviour threshold."
+  },
+  "login_otp_session": {
+    "stage": "Login / OTP",
+    "app_side_fix": "Stop silent logouts (session/token refresh), add OTP retry with a second channel (SMS ⇄ email/WhatsApp) and a visible resend timer.",
+    "first_diagnostic_check": "OTP delivery success rate by carrier and hour from the SMS gateway; session-expiry and forced-logout events per user per week.",
+    "missing_data": "OTP send/deliver/verify funnel; logout events with reason codes.",
+    "success_metric": "OTP delivered-to-verified rate ≥ 97%; forced logouts per active user per month down 80%; login/OTP mentions in 1-2★ halved."
+  },
+  "booking_schedule": {
+    "stage": "Booking",
+    "app_side_fix": "Show the booking deadline and who set it before it passes; confirm bookings unambiguously (one state, one notification); allow cancel/modify within the client's rules.",
+    "first_diagnostic_check": "Booking attempts vs successful bookings per day, with failure reasons; how many attempts are blocked by cutoff rules per client.",
+    "missing_data": "Booking funnel telemetry; per-client cutoff and modification rules.",
+    "success_metric": "Booking success rate per attempt; 'booked but told not booked' reports to zero; booking mentions in 1-2★ down 50%."
+  },
+  "boarding_checkin": {
+    "stage": "Boarding / check-in",
+    "app_side_fix": "Notify 'cab arrived' and ask the employee to confirm before any no-show is recorded; let QR/OTP boarding work when GPS accuracy is low.",
+    "first_diagnostic_check": "No-show markings that were later disputed or followed by a complaint; boarding failures by GPS accuracy bucket.",
+    "missing_data": "No-show events with arrival timestamps and driver-call logs; QR scan failures.",
+    "success_metric": "Disputed no-shows per 1,000 trips down 70%."
+  },
+  "routing_pickup_time": {
+    "stage": "Routing / pickup time",
+    "app_side_fix": "Explain each pickup time (stop N of M, client buffer), show expected ride time at booking, rotate first-pickup position, flag rides over 2.5× the direct time.",
+    "first_diagnostic_check": "Per employee: ride time vs direct-trip time and route position over the last month, per client.",
+    "missing_data": "Route plans with per-rider ride time and position; client settings for buffers, fleet size, max ride time.",
+    "success_metric": "Share of rides over 2.5× direct time; complaints about pickup time/ride length in 1-2★ down 40%."
+  },
+  "tracking_eta": {
+    "stage": "Live tracking / ETA",
+    "app_side_fix": "Show ETA as a window, notify only on material changes (>5 min) with a reason, and make live tracking available well before pickup.",
+    "first_diagnostic_check": "GPS update frequency from driver devices; ETA error at T-15 min; how long before pickup tracking becomes visible on the current version.",
+    "missing_data": "Driver-app GPS ping rates; ETA prediction vs actual arrival.",
+    "success_metric": "Median ETA error at T-15 min under 4 minutes; tracking complaints in 1-2★ down 50%."
+  },
+  "notifications": {
+    "stage": "Notifications",
+    "app_side_fix": "Rate-limit repeat alerts (one delay alert per material change), make notifications dismissible and grouped.",
+    "first_diagnostic_check": "Notifications sent per trip by type; repeat-alert counts per trip.",
+    "missing_data": "Notification send logs by type.",
+    "success_metric": "Notifications per trip down; notification complaints in reviews to near zero."
+  },
+  "ui_confusing": {
+    "stage": "Usability / redesign",
+    "app_side_fix": "Restore one-step booking and 'show only my cab'; ship redesigns behind staged rollout with an in-app 'what changed' and a way back for one release.",
+    "first_diagnostic_check": "Task completion time and drop-off for booking on the new vs old flow; staged-rollout cohort comparison of 1★ share.",
+    "missing_data": "Funnel analytics per screen; rollout cohorts.",
+    "success_metric": "Booking completion rate on the new flow ≥ old flow; 'new update worse' mentions to near zero after next release."
+  },
+  "performance_slow": {
+    "stage": "Performance",
+    "app_side_fix": "Cache today's ride details for offline/slow-network opening; cut cold-start network calls.",
+    "first_diagnostic_check": "Cold-start time and slow-frame rate by device tier (Android vitals).",
+    "missing_data": "Startup traces; network calls on app open.",
+    "success_metric": "Cold start under 2s on mid-tier devices; 'slow' mentions halved."
+  },
+  "driver_vehicle_service": {
+    "stage": "On-ground service (ops)",
+    "app_side_fix": "In-app 'report this trip' with trip ID attached, routed to the right transport desk, with status visible to the employee.",
+    "first_diagnostic_check": "On-time pickup rate and cab-assignment lead time per client/vendor.",
+    "missing_data": "Trip-level on-time data; complaint tickets by vendor.",
+    "success_metric": "On-time pickup rate per client; share of ops complaints resolved in-app before they reach the Play Store."
+  },
+  "safety_incident": {
+    "stage": "Safety",
+    "app_side_fix": "Visible SOS and escort status; every safety mention in a review triggers an internal incident check within 24h.",
+    "first_diagnostic_check": "Match each safety-related review to trips by date/route where possible; review the SOS flow end to end.",
+    "missing_data": "Safety incident log; SOS usage.",
+    "success_metric": "100% of safety reviews acknowledged within 24h and investigated."
+  },
+  "support_escalation": {
+    "stage": "Support / escalation",
+    "app_side_fix": "Show the right helpdesk for the employee's company with hours and call-back; in-app complaint with status tracking.",
+    "first_diagnostic_check": "Helpdesk answer rate and abandoned calls by client; complaint resolution time.",
+    "missing_data": "Call-centre logs; ticket volume and resolution time per client.",
+    "success_metric": "Helpdesk answer rate ≥ 90%; complaint status visible in-app for 100% of tickets."
+  },
+  "profile_settings": {
+    "stage": "Profile / settings",
+    "app_side_fix": "Self-serve address and pickup-point change request with approval status.",
+    "first_diagnostic_check": "Address-change requests and turnaround per client.",
+    "missing_data": "Profile change requests log.",
+    "success_metric": "Address-change turnaround under 48h."
+  },
+  "other": { "stage": "Other", "app_side_fix": "", "first_diagnostic_check": "Read the examples; split into a new category if a theme appears.", "missing_data": "", "success_metric": "" },
+  "praise": { "stage": "-", "app_side_fix": "", "first_diagnostic_check": "", "missing_data": "", "success_metric": "" },
+  "no_signal": { "stage": "-", "app_side_fix": "", "first_diagnostic_check": "", "missing_data": "", "success_metric": "" }
+}

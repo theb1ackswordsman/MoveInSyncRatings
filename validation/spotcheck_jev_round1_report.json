@@ -1,0 +1,85 @@
+{
+  "at": "2026-10-10T18:45:01.566Z",
+  "provider": "jev",
+  "reviews": 50,
+  "issue": {
+    "checked": 50,
+    "correct": 45,
+    "pct": 90,
+    "confusions": {
+      "login_otp_session -> app_crash_or_wont_open": 1,
+      "no_signal -> driver_vehicle_service": 3,
+      "no_signal -> app_crash_or_wont_open": 1
+    },
+    "wrong": [
+      {
+        "reviewId": "7dd834b0-8906-4e8d-88d8-bee85025334b",
+        "model": "login_otp_session",
+        "human": "app_crash_or_wont_open",
+        "notes": null,
+        "text": "after every 2 days getting error of \"not installed from play store even though I'm installing from play store\". do we have any other store to install? this is pathetic"
+      },
+      {
+        "reviewId": "760cc5ba-26c9-48c6-8e86-13fdb106d7e7",
+        "model": "no_signal",
+        "human": "driver_vehicle_service",
+        "notes": null,
+        "text": "Complaint Regarding Pathetic Transport Service I would like to raise a complaint regarding the pathetic transport service provided today."
+      },
+      {
+        "reviewId": "3f781b95-26ee-4822-9cea-a9ea9056d3e6",
+        "model": "no_signal",
+        "human": "app_crash_or_wont_open",
+        "notes": "the review itself was not gramatically correct.",
+        "text": "it will not be properly, fix the bug"
+      },
+      {
+        "reviewId": "e6077207-c5c0-4521-8a4e-ee00d18263aa",
+        "model": "no_signal",
+        "human": "driver_vehicle_service",
+        "notes": null,
+        "text": "worst allstate cab management services!!! Very unprofessional... not recommended at all."
+      },
+      {
+        "reviewId": "85082941-1df5-4350-91cf-983886fbb10a",
+        "model": "no_signal",
+        "human": "driver_vehicle_service",
+        "notes": null,
+        "text": "worst transport ever had"
+      }
+    ]
+  },
+  "cause": {
+    "checked": 50,
+    "correct": 47,
+    "pct": 94,
+    "confusions": {
+      "unclear -> ops": 2,
+      "unclear -> app": 1
+    },
+    "wrong": [
+      {
+        "reviewId": "e6077207-c5c0-4521-8a4e-ee00d18263aa",
+        "model": "unclear",
+        "human": "ops",
+        "notes": null,
+        "text": "worst allstate cab management services!!! Very unprofessional... not recommended at all."
+      },
+      {
+        "reviewId": "85082941-1df5-4350-91cf-983886fbb10a",
+        "model": "unclear",
+        "human": "ops",
+        "notes": null,
+        "text": "worst transport ever had"
+      },
+      {
+        "reviewId": "80fb6601-efa8-460c-903d-2835315a4322",
+        "model": "unclear",
+        "human": "app",
+        "notes": null,
+        "text": "not open"
+      }
+    ]
+  },
+  "ambiguous": 3
+}
