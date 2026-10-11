@@ -4,7 +4,7 @@
 
 
 ## Headline
-- **Store rating 4.64★ from 1,14,852 ratings** (version 12.19.0, collected 2026-10-10).
+- **Store rating 4.64★ from 1,14,869 ratings** (version 12.19.0, collected 2026-10-11).
 - **Written reviews, last 30 days:** 255 reviews, average 3.79★, **26.7% are 1★** (prior 30 days: 25.6%, n=238).
 - **Developer replies to 1-2★ reviews, last 30 days: 1 of 75 (1.3%).** 141 critical reviews from the last 60 days have no reply.
 - **Version alert:** 12.19.0 has 32.4% 1★ vs 23.2% baseline (n=102); crash/won't-open in 10 of 36 low-star reviews.

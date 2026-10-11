@@ -1,21 +1,21 @@
 {
   "app": "com.moveinsync.ets",
   "asOf": "2026-10-09",
-  "generatedAt": "2026-10-11T04:00:40.695Z",
+  "generatedAt": "2026-10-11T11:36:39.145Z",
   "labelProvider": "jev",
   "labelModel": "typesafe/jev-1.13-20260917",
   "taxonomyVersion": "ef37ad8ac4",
   "store": {
-    "collectedAt": "2026-10-10T16:24:53.708Z",
-    "score": 4.6374946,
-    "ratings": 114852,
-    "reviews": 23617,
+    "collectedAt": "2026-10-11T11:36:35.441Z",
+    "score": 4.6381807,
+    "ratings": 114869,
+    "reviews": 23619,
     "histogram": {
-      "1": 7338,
-      "2": 837,
-      "3": 1231,
-      "4": 7297,
-      "5": 98144
+      "1": 7323,
+      "2": 840,
+      "3": 1235,
+      "4": 7270,
+      "5": 98196
     },
     "version": "12.19.0",
     "updated": "2026-10-08T16:48:20.000Z"
@@ -758,7 +758,8 @@
   "unansweredCritical60dN": 141,
   "labelCoverage": {
     "current": 962,
-    "stale": 0
+    "stale": 0,
+    "unlabelled": 0
   },
   "validation": [
     {
