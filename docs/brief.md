@@ -1,4 +1,4 @@
-# How are our Play Store ratings? — 2026-10-09
+# How are our Play Store ratings? — 2026-10-11
 
 *com.moveinsync.ets · reviews up to 2026-10-09 · labels: jev (typesafe/jev-1.13-20260917, taxonomy ef37ad8ac4) · spot-check: round1 45/50*
 
@@ -9,8 +9,10 @@
 - **Developer replies to 1-2★ reviews, last 30 days: 1 of 75 (1.3%).** 141 critical reviews from the last 60 days have no reply.
 - **Version alert:** 12.19.0 has 32.4% 1★ vs 23.2% baseline (n=102); crash/won't-open in 10 of 36 low-star reviews.
 
-## What changed since the last run
-- First run: nothing to compare yet. The next run will list changes here.
+## What changed since the last run (2026-10-09)
+- Store rating 4.64 → 4.64 (+0.00); ratings 114869 → 114869 (+0); version 12.19.0 → 12.19.0.
+- Written reviews, last 30 days: average 3.79 → 3.79; 1★ share 26.7% → 26.7% (n 255 → 255).
+- Developer replies to 1-2★ (last 30 days): 1.3% → 1.3%.
 
 ## Top issues in 1-2★ reviews (last 90 days)
 207 low-star reviews; 39 had no usable detail and are left out of the shares below (n=168). Ranked by priority: main-complaint count plus half the other mentions, weighted by average severity.

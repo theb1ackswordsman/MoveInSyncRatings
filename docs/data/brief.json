@@ -1,12 +1,13 @@
 {
   "app": "com.moveinsync.ets",
   "asOf": "2026-10-09",
-  "generatedAt": "2026-10-11T11:36:39.145Z",
+  "runDate": "2026-10-11",
+  "generatedAt": "2026-10-11T11:43:12.217Z",
   "labelProvider": "jev",
   "labelModel": "typesafe/jev-1.13-20260917",
   "taxonomyVersion": "ef37ad8ac4",
   "store": {
-    "collectedAt": "2026-10-11T11:36:35.441Z",
+    "collectedAt": "2026-10-11T11:43:07.892Z",
     "score": 4.6381807,
     "ratings": 114869,
     "reviews": 23619,
@@ -770,8 +771,12 @@
     }
   ],
   "changesSincePrevious": {
-    "previous": null,
-    "items": []
+    "previous": "2026-10-09",
+    "items": [
+      "Store rating 4.64 → 4.64 (+0.00); ratings 114869 → 114869 (+0); version 12.19.0 → 12.19.0.",
+      "Written reviews, last 30 days: average 3.79 → 3.79; 1★ share 26.7% → 26.7% (n 255 → 255).",
+      "Developer replies to 1-2★ (last 30 days): 1.3% → 1.3%."
+    ]
   },
   "verdict": {
     "direction": "steady",
@@ -1329,56 +1334,56 @@
       "issue": "App crashes, won't open, or freezes",
       "owner": "Engineering",
       "now": 31,
-      "before": null,
+      "before": 31,
       "successMetric": "Crash/launch-failure mentions in 1-2★ reviews back to the pre-release share within 2 releases; user-perceived crash rate below Play's bad-behaviour threshold."
     },
     {
       "issue": "Driver, vehicle or cab service (operations)",
       "owner": "Transport Ops",
       "now": 19,
-      "before": null,
+      "before": 19,
       "successMetric": "On-time pickup rate per client; share of ops complaints resolved in-app before they reach the Play Store."
     },
     {
       "issue": "Login, OTP, or getting logged out",
       "owner": "Engineering",
       "now": 14,
-      "before": null,
+      "before": 14,
       "successMetric": "OTP delivered-to-verified rate ≥ 97%; forced logouts per active user per month down 80%; login/OTP mentions in 1-2★ halved."
     },
     {
       "issue": "Booking or scheduling a ride",
       "owner": "Product",
       "now": 11,
-      "before": null,
+      "before": 11,
       "successMetric": "Booking success rate per attempt; 'booked but told not booked' reports to zero; booking mentions in 1-2★ down 50%."
     },
     {
       "issue": "Routing, ride length, or pickup time",
       "owner": "Product",
       "now": 16,
-      "before": null,
+      "before": 16,
       "successMetric": "Share of rides over 2.5× direct time; complaints about pickup time/ride length in 1-2★ down 40%."
     },
     {
       "issue": "Confusing design or recent UI change",
       "owner": "Product",
       "now": 17,
-      "before": null,
+      "before": 17,
       "successMetric": "Booking completion rate on the new flow ≥ old flow; 'new update worse' mentions to near zero after next release."
     },
     {
       "issue": "Support unreachable or complaint ignored",
       "owner": "Customer Implementation",
       "now": 6,
-      "before": null,
+      "before": 6,
       "successMetric": "Helpdesk answer rate ≥ 90%; complaint status visible in-app for 100% of tickets."
     },
     {
       "issue": "Live tracking or ETA",
       "owner": "Engineering",
       "now": 12,
-      "before": null,
+      "before": 12,
       "successMetric": "Median ETA error at T-15 min under 4 minutes; tracking complaints in 1-2★ down 50%."
     }
   ],
