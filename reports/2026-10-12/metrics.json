@@ -1,0 +1,781 @@
+{
+  "app": "com.moveinsync.ets",
+  "asOf": "2026-10-11",
+  "runDate": "2026-10-12",
+  "generatedAt": "2026-10-12T09:39:22.381Z",
+  "labelProvider": "jev",
+  "labelModel": "typesafe/jev-1.13-20260917",
+  "taxonomyVersion": "ef37ad8ac4",
+  "store": {
+    "collectedAt": "2026-10-12T09:39:18.788Z",
+    "score": 4.638746,
+    "ratings": 114879,
+    "reviews": 23621,
+    "histogram": {
+      "1": 7317,
+      "2": 840,
+      "3": 1224,
+      "4": 7255,
+      "5": 98238
+    },
+    "version": "12.19.0",
+    "updated": "2026-10-08T16:48:20.000Z"
+  },
+  "windows": {
+    "d7": {
+      "n": 66,
+      "mean": 3.83,
+      "oneStarN": 18,
+      "oneStarPct": 27.3,
+      "lowN": 19,
+      "lowRepliedN": 1,
+      "lowRepliedPct": 5.3
+    },
+    "d30": {
+      "n": 243,
+      "mean": 3.77,
+      "oneStarN": 66,
+      "oneStarPct": 27.2,
+      "lowN": 73,
+      "lowRepliedN": 1,
+      "lowRepliedPct": 1.4
+    },
+    "prev30": {
+      "n": 229,
+      "mean": 3.82,
+      "oneStarN": 59,
+      "oneStarPct": 25.8,
+      "lowN": 64,
+      "lowRepliedN": 0,
+      "lowRepliedPct": 0
+    },
+    "d90": {
+      "n": 721,
+      "mean": 3.81,
+      "oneStarN": 178,
+      "oneStarPct": 24.7,
+      "lowN": 205,
+      "lowRepliedN": 2,
+      "lowRepliedPct": 1
+    },
+    "d365": {
+      "n": 2848,
+      "mean": 3.84,
+      "oneStarN": 683,
+      "oneStarPct": 24,
+      "lowN": 769,
+      "lowRepliedN": 29,
+      "lowRepliedPct": 3.8
+    }
+  },
+  "weekly": [
+    {
+      "weekEnding": "2026-04-19",
+      "n": 68,
+      "oneStarN": 13,
+      "oneStarPct": 19.1
+    },
+    {
+      "weekEnding": "2026-04-26",
+      "n": 63,
+      "oneStarN": 18,
+      "oneStarPct": 28.6
+    },
+    {
+      "weekEnding": "2026-05-03",
+      "n": 47,
+      "oneStarN": 11,
+      "oneStarPct": 23.4
+    },
+    {
+      "weekEnding": "2026-05-10",
+      "n": 59,
+      "oneStarN": 12,
+      "oneStarPct": 20.3
+    },
+    {
+      "weekEnding": "2026-05-17",
+      "n": 57,
+      "oneStarN": 9,
+      "oneStarPct": 15.8
+    },
+    {
+      "weekEnding": "2026-05-24",
+      "n": 71,
+      "oneStarN": 18,
+      "oneStarPct": 25.4
+    },
+    {
+      "weekEnding": "2026-05-31",
+      "n": 50,
+      "oneStarN": 10,
+      "oneStarPct": 20
+    },
+    {
+      "weekEnding": "2026-06-07",
+      "n": 63,
+      "oneStarN": 18,
+      "oneStarPct": 28.6
+    },
+    {
+      "weekEnding": "2026-06-14",
+      "n": 62,
+      "oneStarN": 16,
+      "oneStarPct": 25.8
+    },
+    {
+      "weekEnding": "2026-06-21",
+      "n": 67,
+      "oneStarN": 19,
+      "oneStarPct": 28.4
+    },
+    {
+      "weekEnding": "2026-06-28",
+      "n": 61,
+      "oneStarN": 21,
+      "oneStarPct": 34.4
+    },
+    {
+      "weekEnding": "2026-07-05",
+      "n": 75,
+      "oneStarN": 25,
+      "oneStarPct": 33.3
+    },
+    {
+      "weekEnding": "2026-07-12",
+      "n": 77,
+      "oneStarN": 15,
+      "oneStarPct": 19.5
+    },
+    {
+      "weekEnding": "2026-07-19",
+      "n": 55,
+      "oneStarN": 10,
+      "oneStarPct": 18.2
+    },
+    {
+      "weekEnding": "2026-07-26",
+      "n": 49,
+      "oneStarN": 7,
+      "oneStarPct": 14.3
+    },
+    {
+      "weekEnding": "2026-08-02",
+      "n": 57,
+      "oneStarN": 11,
+      "oneStarPct": 19.3
+    },
+    {
+      "weekEnding": "2026-08-09",
+      "n": 58,
+      "oneStarN": 18,
+      "oneStarPct": 31
+    },
+    {
+      "weekEnding": "2026-08-16",
+      "n": 59,
+      "oneStarN": 18,
+      "oneStarPct": 30.5
+    },
+    {
+      "weekEnding": "2026-08-23",
+      "n": 59,
+      "oneStarN": 15,
+      "oneStarPct": 25.4
+    },
+    {
+      "weekEnding": "2026-08-30",
+      "n": 51,
+      "oneStarN": 12,
+      "oneStarPct": 23.5
+    },
+    {
+      "weekEnding": "2026-09-06",
+      "n": 51,
+      "oneStarN": 14,
+      "oneStarPct": 27.5
+    },
+    {
+      "weekEnding": "2026-09-13",
+      "n": 51,
+      "oneStarN": 10,
+      "oneStarPct": 19.6
+    },
+    {
+      "weekEnding": "2026-09-20",
+      "n": 69,
+      "oneStarN": 16,
+      "oneStarPct": 23.2
+    },
+    {
+      "weekEnding": "2026-09-27",
+      "n": 56,
+      "oneStarN": 17,
+      "oneStarPct": 30.4
+    },
+    {
+      "weekEnding": "2026-10-04",
+      "n": 42,
+      "oneStarN": 13,
+      "oneStarPct": 31
+    },
+    {
+      "weekEnding": "2026-10-11",
+      "n": 66,
+      "oneStarN": 18,
+      "oneStarPct": 27.3
+    }
+  ],
+  "low90": {
+    "n": 205,
+    "noSignalN": 38,
+    "withSignalN": 167,
+    "escalationFailureN": 10,
+    "employerPolicyN": 5,
+    "recentUpdateN": 12,
+    "safetyN": 8
+  },
+  "causeSplit90": {
+    "app": 132,
+    "ops": 26,
+    "employer_config": 3,
+    "unclear": 6
+  },
+  "issues": [
+    {
+      "issue": "app_crash_or_wont_open",
+      "label": "App crashes, won't open, or freezes",
+      "owner": "Engineering",
+      "stage": "Launch / stability",
+      "primaryN90": 31,
+      "mentionsN90": 33,
+      "shareOfLowWithSignalPct": 18.6,
+      "last30N": 17,
+      "last30Pct": 23.3,
+      "prior60N": 14,
+      "prior60Pct": 10.6,
+      "cause": "app",
+      "causeSharePct": 96.8,
+      "meanSeverity": 1.97,
+      "meanConfidence": 0.96,
+      "affectedVersions": "12.19.0 (10); 12.17.0 (5); 12.18.1 (4)",
+      "dateRange": "2026-07-14 to 2026-10-09",
+      "devices": "oneplus (1); pixel (1); vivo (1); android 17 (1)",
+      "confidence": "high",
+      "priority": 31.5
+    },
+    {
+      "issue": "driver_vehicle_service",
+      "label": "Driver, vehicle or cab service (operations)",
+      "owner": "Transport Ops",
+      "stage": "On-ground service (ops)",
+      "primaryN90": 19,
+      "mentionsN90": 36,
+      "shareOfLowWithSignalPct": 11.4,
+      "last30N": 7,
+      "last30Pct": 9.6,
+      "prior60N": 12,
+      "prior60Pct": 9.1,
+      "cause": "ops",
+      "causeSharePct": 84.2,
+      "meanSeverity": 1.47,
+      "meanConfidence": 0.79,
+      "affectedVersions": "12.17.0 (9); 12.18.0 (6); 12.19.0 (5)",
+      "dateRange": "2026-07-14 to 2026-10-09",
+      "devices": "",
+      "confidence": "medium",
+      "priority": 20.2
+    },
+    {
+      "issue": "login_otp_session",
+      "label": "Login, OTP, or getting logged out",
+      "owner": "Engineering",
+      "stage": "Login / OTP",
+      "primaryN90": 14,
+      "mentionsN90": 18,
+      "shareOfLowWithSignalPct": 8.4,
+      "last30N": 5,
+      "last30Pct": 6.8,
+      "prior60N": 9,
+      "prior60Pct": 6.8,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.89,
+      "meanConfidence": 0.89,
+      "affectedVersions": "12.17.0 (6); 12.19.0 (3); 12.16.0 (2)",
+      "dateRange": "2026-07-22 to 2026-10-09",
+      "devices": "",
+      "confidence": "medium",
+      "priority": 15.1
+    },
+    {
+      "issue": "booking_schedule",
+      "label": "Booking or scheduling a ride",
+      "owner": "Product",
+      "stage": "Booking",
+      "primaryN90": 11,
+      "mentionsN90": 22,
+      "shareOfLowWithSignalPct": 6.6,
+      "last30N": 2,
+      "last30Pct": 2.7,
+      "prior60N": 9,
+      "prior60Pct": 6.8,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.73,
+      "meanConfidence": 0.86,
+      "affectedVersions": "12.19.0 (5); 12.17.0 (5); 12.18.0 (4)",
+      "dateRange": "2026-07-15 to 2026-10-08",
+      "devices": "",
+      "confidence": "medium",
+      "priority": 14.3
+    },
+    {
+      "issue": "routing_pickup_time",
+      "label": "Routing, ride length, or pickup time",
+      "owner": "Product",
+      "stage": "Routing / pickup time",
+      "primaryN90": 16,
+      "mentionsN90": 24,
+      "shareOfLowWithSignalPct": 9.6,
+      "last30N": 3,
+      "last30Pct": 4.1,
+      "prior60N": 13,
+      "prior60Pct": 9.8,
+      "cause": "app",
+      "causeSharePct": 62.5,
+      "meanSeverity": 1.21,
+      "meanConfidence": 0.93,
+      "affectedVersions": "12.17.0 (10); 12.19.0 (4); 12.16.0 (3)",
+      "dateRange": "2026-07-14 to 2026-10-09",
+      "devices": "",
+      "confidence": "medium",
+      "priority": 12.1
+    },
+    {
+      "issue": "ui_confusing",
+      "label": "Confusing design or recent UI change",
+      "owner": "Product",
+      "stage": "Usability / redesign",
+      "primaryN90": 16,
+      "mentionsN90": 23,
+      "shareOfLowWithSignalPct": 9.6,
+      "last30N": 7,
+      "last30Pct": 9.6,
+      "prior60N": 9,
+      "prior60Pct": 6.8,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.13,
+      "meanConfidence": 0.83,
+      "affectedVersions": "12.19.0 (7); 12.16.0 (4); 12.18.1 (2)",
+      "dateRange": "2026-07-13 to 2026-10-09",
+      "devices": "",
+      "confidence": "medium",
+      "priority": 11
+    },
+    {
+      "issue": "support_escalation",
+      "label": "Support unreachable or complaint ignored",
+      "owner": "Customer Implementation",
+      "stage": "Support / escalation",
+      "primaryN90": 6,
+      "mentionsN90": 19,
+      "shareOfLowWithSignalPct": 3.6,
+      "last30N": 2,
+      "last30Pct": 2.7,
+      "prior60N": 4,
+      "prior60Pct": 3,
+      "cause": "ops",
+      "causeSharePct": 50,
+      "meanSeverity": 1.74,
+      "meanConfidence": 0.83,
+      "affectedVersions": "12.18.0 (4); 12.19.0 (3); 12.17.0 (3)",
+      "dateRange": "2026-07-16 to 2026-10-07",
+      "devices": "",
+      "confidence": "low",
+      "priority": 10.9
+    },
+    {
+      "issue": "tracking_eta",
+      "label": "Live tracking or ETA",
+      "owner": "Engineering",
+      "stage": "Live tracking / ETA",
+      "primaryN90": 12,
+      "mentionsN90": 21,
+      "shareOfLowWithSignalPct": 7.2,
+      "last30N": 5,
+      "last30Pct": 6.8,
+      "prior60N": 7,
+      "prior60Pct": 5.3,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.29,
+      "meanConfidence": 0.9,
+      "affectedVersions": "12.17.0 (7); 12.19.0 (5); 12.16.0 (4)",
+      "dateRange": "2026-07-14 to 2026-10-09",
+      "devices": "samsung (1)",
+      "confidence": "medium",
+      "priority": 10.6
+    },
+    {
+      "issue": "other",
+      "label": "Other specific issue",
+      "owner": "Unassigned",
+      "stage": "Other",
+      "primaryN90": 16,
+      "mentionsN90": 16,
+      "shareOfLowWithSignalPct": 9.6,
+      "last30N": 3,
+      "last30Pct": 4.1,
+      "prior60N": 13,
+      "prior60Pct": 9.8,
+      "cause": "app",
+      "causeSharePct": 93.8,
+      "meanSeverity": 1.19,
+      "meanConfidence": 0.7,
+      "affectedVersions": "12.15.0 (4); 12.16.1 (3); 12.17.0 (3)",
+      "dateRange": "2026-07-16 to 2026-09-29",
+      "devices": "huawei (1)",
+      "confidence": "medium",
+      "priority": 9.5
+    },
+    {
+      "issue": "boarding_checkin",
+      "label": "Boarding, check-in, QR or no-show marking",
+      "owner": "Product",
+      "stage": "Boarding / check-in",
+      "primaryN90": 4,
+      "mentionsN90": 14,
+      "shareOfLowWithSignalPct": 2.4,
+      "last30N": 1,
+      "last30Pct": 1.4,
+      "prior60N": 3,
+      "prior60Pct": 2.3,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 2,
+      "meanConfidence": 0.88,
+      "affectedVersions": "12.17.0 (4); 12.18.1 (2); 12.14.1 (2)",
+      "dateRange": "2026-07-15 to 2026-10-06",
+      "devices": "",
+      "confidence": "low",
+      "priority": 9
+    },
+    {
+      "issue": "notifications",
+      "label": "Notifications",
+      "owner": "Product",
+      "stage": "Notifications",
+      "primaryN90": 8,
+      "mentionsN90": 14,
+      "shareOfLowWithSignalPct": 4.8,
+      "last30N": 4,
+      "last30Pct": 5.5,
+      "prior60N": 4,
+      "prior60Pct": 3,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.5,
+      "meanConfidence": 0.96,
+      "affectedVersions": "12.17.0 (5); 12.18.1 (3); 12.19.0 (2)",
+      "dateRange": "2026-07-23 to 2026-10-06",
+      "devices": "",
+      "confidence": "low",
+      "priority": 8.3
+    },
+    {
+      "issue": "safety_incident",
+      "label": "Safety concern",
+      "owner": "Safety",
+      "stage": "Safety",
+      "primaryN90": 3,
+      "mentionsN90": 8,
+      "shareOfLowWithSignalPct": 1.8,
+      "last30N": 0,
+      "last30Pct": 0,
+      "prior60N": 3,
+      "prior60Pct": 2.3,
+      "cause": "ops",
+      "causeSharePct": 100,
+      "meanSeverity": 2.5,
+      "meanConfidence": 0.86,
+      "affectedVersions": "12.17.0 (3); 12.19.0 (1); 12.18.1 (1)",
+      "dateRange": "2026-07-30 to 2026-10-02",
+      "devices": "",
+      "confidence": "low",
+      "priority": 6.9
+    },
+    {
+      "issue": "performance_slow",
+      "label": "Slow, laggy, battery or data drain",
+      "owner": "Engineering",
+      "stage": "Performance",
+      "primaryN90": 7,
+      "mentionsN90": 10,
+      "shareOfLowWithSignalPct": 4.2,
+      "last30N": 2,
+      "last30Pct": 2.7,
+      "prior60N": 5,
+      "prior60Pct": 3.8,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.1,
+      "meanConfidence": 0.95,
+      "affectedVersions": "12.17.0 (2); 12.16.0 (2); 12.18.1 (1)",
+      "dateRange": "2026-07-22 to 2026-09-23",
+      "devices": "oneplus (1)",
+      "confidence": "low",
+      "priority": 4.7
+    },
+    {
+      "issue": "profile_settings",
+      "label": "Profile, address or settings",
+      "owner": "Product",
+      "stage": "Profile / settings",
+      "primaryN90": 1,
+      "mentionsN90": 3,
+      "shareOfLowWithSignalPct": 0.6,
+      "last30N": 0,
+      "last30Pct": 0,
+      "prior60N": 1,
+      "prior60Pct": 0.8,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.33,
+      "meanConfidence": 1,
+      "affectedVersions": "12.16.0 (1); 12.16.1 (1)",
+      "dateRange": "2026-08-03 to 2026-08-29",
+      "devices": "",
+      "confidence": "low",
+      "priority": 1.3
+    }
+  ],
+  "versionFlags": [
+    {
+      "version": "12.14.0",
+      "firstSeen": "2026-06-22",
+      "n": 38,
+      "oneStarPct": 36.8,
+      "baselineOneStarPct": 23.3,
+      "z": 1.97,
+      "lowStarN": 15,
+      "crashMentionsN": 2,
+      "crashSharePct": 13.3
+    },
+    {
+      "version": "12.14.1",
+      "firstSeen": "2026-06-28",
+      "n": 142,
+      "oneStarPct": 24.6,
+      "baselineOneStarPct": 23.5,
+      "z": 0.33,
+      "lowStarN": 39,
+      "crashMentionsN": 4,
+      "crashSharePct": 10.3
+    },
+    {
+      "version": "12.15.0",
+      "firstSeen": "2026-07-09",
+      "n": 83,
+      "oneStarPct": 19.3,
+      "baselineOneStarPct": 23.7,
+      "z": -0.94,
+      "lowStarN": 19,
+      "crashMentionsN": 1,
+      "crashSharePct": 5.3
+    },
+    {
+      "version": "12.16.0",
+      "firstSeen": "2026-07-22",
+      "n": 89,
+      "oneStarPct": 20.2,
+      "baselineOneStarPct": 23.6,
+      "z": -0.76,
+      "lowStarN": 24,
+      "crashMentionsN": 3,
+      "crashSharePct": 12.5
+    },
+    {
+      "version": "12.16.1",
+      "firstSeen": "2026-07-29",
+      "n": 38,
+      "oneStarPct": 34.2,
+      "baselineOneStarPct": 23.4,
+      "z": 1.58,
+      "lowStarN": 13,
+      "crashMentionsN": 3,
+      "crashSharePct": 23.1
+    },
+    {
+      "version": "12.17.0",
+      "firstSeen": "2026-08-07",
+      "n": 141,
+      "oneStarPct": 27,
+      "baselineOneStarPct": 23.3,
+      "z": 1.02,
+      "lowStarN": 42,
+      "crashMentionsN": 5,
+      "crashSharePct": 11.9
+    },
+    {
+      "version": "12.18.0",
+      "firstSeen": "2026-08-21",
+      "n": 65,
+      "oneStarPct": 20,
+      "baselineOneStarPct": 23.6,
+      "z": -0.69,
+      "lowStarN": 13,
+      "crashMentionsN": 0,
+      "crashSharePct": 0
+    },
+    {
+      "version": "12.18.1",
+      "firstSeen": "2026-09-09",
+      "n": 94,
+      "oneStarPct": 24.5,
+      "baselineOneStarPct": 23.5,
+      "z": 0.22,
+      "lowStarN": 25,
+      "crashMentionsN": 4,
+      "crashSharePct": 16
+    },
+    {
+      "version": "12.19.0",
+      "firstSeen": "2026-09-21",
+      "n": 105,
+      "oneStarPct": 31.4,
+      "baselineOneStarPct": 23.2,
+      "z": 2,
+      "lowStarN": 36,
+      "crashMentionsN": 10,
+      "crashSharePct": 27.8
+    }
+  ],
+  "replyHistory": [
+    {
+      "quarter": "2022-Q4",
+      "lowStarN": 138,
+      "repliedN": 133,
+      "repliedPct": 96.4
+    },
+    {
+      "quarter": "2023-Q1",
+      "lowStarN": 171,
+      "repliedN": 168,
+      "repliedPct": 98.2
+    },
+    {
+      "quarter": "2023-Q2",
+      "lowStarN": 153,
+      "repliedN": 148,
+      "repliedPct": 96.7
+    },
+    {
+      "quarter": "2023-Q3",
+      "lowStarN": 212,
+      "repliedN": 205,
+      "repliedPct": 96.7
+    },
+    {
+      "quarter": "2023-Q4",
+      "lowStarN": 238,
+      "repliedN": 229,
+      "repliedPct": 96.2
+    },
+    {
+      "quarter": "2024-Q1",
+      "lowStarN": 219,
+      "repliedN": 210,
+      "repliedPct": 95.9
+    },
+    {
+      "quarter": "2024-Q2",
+      "lowStarN": 194,
+      "repliedN": 100,
+      "repliedPct": 51.5
+    },
+    {
+      "quarter": "2024-Q3",
+      "lowStarN": 228,
+      "repliedN": 6,
+      "repliedPct": 2.6
+    },
+    {
+      "quarter": "2024-Q4",
+      "lowStarN": 199,
+      "repliedN": 1,
+      "repliedPct": 0.5
+    },
+    {
+      "quarter": "2025-Q1",
+      "lowStarN": 252,
+      "repliedN": 10,
+      "repliedPct": 4
+    },
+    {
+      "quarter": "2025-Q2",
+      "lowStarN": 234,
+      "repliedN": 7,
+      "repliedPct": 3
+    },
+    {
+      "quarter": "2025-Q3",
+      "lowStarN": 216,
+      "repliedN": 20,
+      "repliedPct": 9.3
+    },
+    {
+      "quarter": "2025-Q4",
+      "lowStarN": 182,
+      "repliedN": 24,
+      "repliedPct": 13.2
+    },
+    {
+      "quarter": "2026-Q1",
+      "lowStarN": 168,
+      "repliedN": 4,
+      "repliedPct": 2.4
+    },
+    {
+      "quarter": "2026-Q2",
+      "lowStarN": 210,
+      "repliedN": 1,
+      "repliedPct": 0.5
+    },
+    {
+      "quarter": "2026-Q3",
+      "lowStarN": 210,
+      "repliedN": 1,
+      "repliedPct": 0.5
+    },
+    {
+      "quarter": "2026-Q4",
+      "lowStarN": 25,
+      "repliedN": 1,
+      "repliedPct": 4
+    }
+  ],
+  "unansweredCritical60dN": 136,
+  "labelCoverage": {
+    "current": 962,
+    "stale": 0,
+    "unlabelled": 0
+  },
+  "validation": [
+    {
+      "round": "round1",
+      "checked": 50,
+      "correct": 45,
+      "pct": 90
+    }
+  ],
+  "changesSincePrevious": {
+    "previous": "2026-10-11",
+    "items": [
+      "Store rating 4.64 → 4.64 (+0.00); ratings 114869 → 114879 (+10); version 12.19.0 → 12.19.0.",
+      "Written reviews, last 30 days: average 3.79 → 3.77; 1★ share 26.7% → 27.2% (n 255 → 243).",
+      "Developer replies to 1-2★ (last 30 days): 1.3% → 1.4%."
+    ]
+  }
+}

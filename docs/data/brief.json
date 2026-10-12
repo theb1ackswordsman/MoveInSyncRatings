@@ -1,242 +1,242 @@
 {
   "app": "com.moveinsync.ets",
-  "asOf": "2026-10-09",
-  "runDate": "2026-10-11",
-  "generatedAt": "2026-10-11T11:43:12.217Z",
+  "asOf": "2026-10-11",
+  "runDate": "2026-10-12",
+  "generatedAt": "2026-10-12T09:39:22.381Z",
   "labelProvider": "jev",
   "labelModel": "typesafe/jev-1.13-20260917",
   "taxonomyVersion": "ef37ad8ac4",
   "store": {
-    "collectedAt": "2026-10-11T11:43:07.892Z",
-    "score": 4.6381807,
-    "ratings": 114869,
-    "reviews": 23619,
+    "collectedAt": "2026-10-12T09:39:18.788Z",
+    "score": 4.638746,
+    "ratings": 114879,
+    "reviews": 23621,
     "histogram": {
-      "1": 7323,
+      "1": 7317,
       "2": 840,
-      "3": 1235,
-      "4": 7270,
-      "5": 98196
+      "3": 1224,
+      "4": 7255,
+      "5": 98238
     },
     "version": "12.19.0",
     "updated": "2026-10-08T16:48:20.000Z"
   },
   "windows": {
     "d7": {
-      "n": 69,
-      "mean": 3.7,
-      "oneStarN": 20,
-      "oneStarPct": 29,
-      "lowN": 22,
+      "n": 66,
+      "mean": 3.83,
+      "oneStarN": 18,
+      "oneStarPct": 27.3,
+      "lowN": 19,
       "lowRepliedN": 1,
-      "lowRepliedPct": 4.5
+      "lowRepliedPct": 5.3
     },
     "d30": {
-      "n": 255,
-      "mean": 3.79,
-      "oneStarN": 68,
-      "oneStarPct": 26.7,
-      "lowN": 75,
+      "n": 243,
+      "mean": 3.77,
+      "oneStarN": 66,
+      "oneStarPct": 27.2,
+      "lowN": 73,
       "lowRepliedN": 1,
-      "lowRepliedPct": 1.3
+      "lowRepliedPct": 1.4
     },
     "prev30": {
-      "n": 238,
+      "n": 229,
       "mean": 3.82,
-      "oneStarN": 61,
-      "oneStarPct": 25.6,
-      "lowN": 67,
+      "oneStarN": 59,
+      "oneStarPct": 25.8,
+      "lowN": 64,
       "lowRepliedN": 0,
       "lowRepliedPct": 0
     },
     "d90": {
       "n": 721,
-      "mean": 3.8,
-      "oneStarN": 180,
-      "oneStarPct": 25,
-      "lowN": 207,
+      "mean": 3.81,
+      "oneStarN": 178,
+      "oneStarPct": 24.7,
+      "lowN": 205,
       "lowRepliedN": 2,
       "lowRepliedPct": 1
     },
     "d365": {
-      "n": 2857,
-      "mean": 3.83,
-      "oneStarN": 686,
+      "n": 2848,
+      "mean": 3.84,
+      "oneStarN": 683,
       "oneStarPct": 24,
-      "lowN": 772,
+      "lowN": 769,
       "lowRepliedN": 29,
       "lowRepliedPct": 3.8
     }
   },
   "weekly": [
     {
-      "weekEnding": "2026-04-17",
-      "n": 64,
-      "oneStarN": 9,
-      "oneStarPct": 14.1
-    },
-    {
-      "weekEnding": "2026-04-24",
-      "n": 66,
-      "oneStarN": 21,
-      "oneStarPct": 31.8
-    },
-    {
-      "weekEnding": "2026-05-01",
-      "n": 50,
-      "oneStarN": 12,
-      "oneStarPct": 24
-    },
-    {
-      "weekEnding": "2026-05-08",
-      "n": 56,
-      "oneStarN": 9,
-      "oneStarPct": 16.1
-    },
-    {
-      "weekEnding": "2026-05-15",
-      "n": 57,
-      "oneStarN": 10,
-      "oneStarPct": 17.5
-    },
-    {
-      "weekEnding": "2026-05-22",
+      "weekEnding": "2026-04-19",
       "n": 68,
-      "oneStarN": 18,
-      "oneStarPct": 26.5
+      "oneStarN": 13,
+      "oneStarPct": 19.1
     },
     {
-      "weekEnding": "2026-05-29",
-      "n": 53,
-      "oneStarN": 11,
-      "oneStarPct": 20.8
-    },
-    {
-      "weekEnding": "2026-06-05",
+      "weekEnding": "2026-04-26",
       "n": 63,
       "oneStarN": 18,
       "oneStarPct": 28.6
     },
     {
-      "weekEnding": "2026-06-12",
-      "n": 52,
-      "oneStarN": 12,
-      "oneStarPct": 23.1
-    },
-    {
-      "weekEnding": "2026-06-19",
-      "n": 73,
-      "oneStarN": 22,
-      "oneStarPct": 30.1
-    },
-    {
-      "weekEnding": "2026-06-26",
-      "n": 63,
-      "oneStarN": 20,
-      "oneStarPct": 31.7
-    },
-    {
-      "weekEnding": "2026-07-03",
-      "n": 77,
-      "oneStarN": 28,
-      "oneStarPct": 36.4
-    },
-    {
-      "weekEnding": "2026-07-10",
-      "n": 78,
-      "oneStarN": 14,
-      "oneStarPct": 17.9
-    },
-    {
-      "weekEnding": "2026-07-17",
-      "n": 56,
+      "weekEnding": "2026-05-03",
+      "n": 47,
       "oneStarN": 11,
+      "oneStarPct": 23.4
+    },
+    {
+      "weekEnding": "2026-05-10",
+      "n": 59,
+      "oneStarN": 12,
+      "oneStarPct": 20.3
+    },
+    {
+      "weekEnding": "2026-05-17",
+      "n": 57,
+      "oneStarN": 9,
+      "oneStarPct": 15.8
+    },
+    {
+      "weekEnding": "2026-05-24",
+      "n": 71,
+      "oneStarN": 18,
+      "oneStarPct": 25.4
+    },
+    {
+      "weekEnding": "2026-05-31",
+      "n": 50,
+      "oneStarN": 10,
+      "oneStarPct": 20
+    },
+    {
+      "weekEnding": "2026-06-07",
+      "n": 63,
+      "oneStarN": 18,
+      "oneStarPct": 28.6
+    },
+    {
+      "weekEnding": "2026-06-14",
+      "n": 62,
+      "oneStarN": 16,
+      "oneStarPct": 25.8
+    },
+    {
+      "weekEnding": "2026-06-21",
+      "n": 67,
+      "oneStarN": 19,
+      "oneStarPct": 28.4
+    },
+    {
+      "weekEnding": "2026-06-28",
+      "n": 61,
+      "oneStarN": 21,
+      "oneStarPct": 34.4
+    },
+    {
+      "weekEnding": "2026-07-05",
+      "n": 75,
+      "oneStarN": 25,
+      "oneStarPct": 33.3
+    },
+    {
+      "weekEnding": "2026-07-12",
+      "n": 77,
+      "oneStarN": 15,
+      "oneStarPct": 19.5
+    },
+    {
+      "weekEnding": "2026-07-19",
+      "n": 55,
+      "oneStarN": 10,
+      "oneStarPct": 18.2
+    },
+    {
+      "weekEnding": "2026-07-26",
+      "n": 49,
+      "oneStarN": 7,
+      "oneStarPct": 14.3
+    },
+    {
+      "weekEnding": "2026-08-02",
+      "n": 57,
+      "oneStarN": 11,
+      "oneStarPct": 19.3
+    },
+    {
+      "weekEnding": "2026-08-09",
+      "n": 58,
+      "oneStarN": 18,
+      "oneStarPct": 31
+    },
+    {
+      "weekEnding": "2026-08-16",
+      "n": 59,
+      "oneStarN": 18,
+      "oneStarPct": 30.5
+    },
+    {
+      "weekEnding": "2026-08-23",
+      "n": 59,
+      "oneStarN": 15,
+      "oneStarPct": 25.4
+    },
+    {
+      "weekEnding": "2026-08-30",
+      "n": 51,
+      "oneStarN": 12,
+      "oneStarPct": 23.5
+    },
+    {
+      "weekEnding": "2026-09-06",
+      "n": 51,
+      "oneStarN": 14,
+      "oneStarPct": 27.5
+    },
+    {
+      "weekEnding": "2026-09-13",
+      "n": 51,
+      "oneStarN": 10,
       "oneStarPct": 19.6
     },
     {
-      "weekEnding": "2026-07-24",
-      "n": 47,
-      "oneStarN": 6,
-      "oneStarPct": 12.8
-    },
-    {
-      "weekEnding": "2026-07-31",
-      "n": 54,
-      "oneStarN": 10,
-      "oneStarPct": 18.5
-    },
-    {
-      "weekEnding": "2026-08-07",
-      "n": 61,
-      "oneStarN": 18,
-      "oneStarPct": 29.5
-    },
-    {
-      "weekEnding": "2026-08-14",
-      "n": 55,
-      "oneStarN": 15,
-      "oneStarPct": 27.3
-    },
-    {
-      "weekEnding": "2026-08-21",
-      "n": 64,
-      "oneStarN": 18,
-      "oneStarPct": 28.1
-    },
-    {
-      "weekEnding": "2026-08-28",
-      "n": 50,
-      "oneStarN": 12,
-      "oneStarPct": 24
-    },
-    {
-      "weekEnding": "2026-09-04",
-      "n": 51,
-      "oneStarN": 16,
-      "oneStarPct": 31.4
-    },
-    {
-      "weekEnding": "2026-09-11",
-      "n": 49,
-      "oneStarN": 10,
-      "oneStarPct": 20.4
-    },
-    {
-      "weekEnding": "2026-09-18",
-      "n": 65,
-      "oneStarN": 14,
-      "oneStarPct": 21.5
-    },
-    {
-      "weekEnding": "2026-09-25",
-      "n": 64,
-      "oneStarN": 18,
-      "oneStarPct": 28.1
-    },
-    {
-      "weekEnding": "2026-10-02",
-      "n": 39,
-      "oneStarN": 12,
-      "oneStarPct": 30.8
-    },
-    {
-      "weekEnding": "2026-10-09",
+      "weekEnding": "2026-09-20",
       "n": 69,
-      "oneStarN": 20,
-      "oneStarPct": 29
+      "oneStarN": 16,
+      "oneStarPct": 23.2
+    },
+    {
+      "weekEnding": "2026-09-27",
+      "n": 56,
+      "oneStarN": 17,
+      "oneStarPct": 30.4
+    },
+    {
+      "weekEnding": "2026-10-04",
+      "n": 42,
+      "oneStarN": 13,
+      "oneStarPct": 31
+    },
+    {
+      "weekEnding": "2026-10-11",
+      "n": 66,
+      "oneStarN": 18,
+      "oneStarPct": 27.3
     }
   ],
   "low90": {
-    "n": 207,
-    "noSignalN": 39,
-    "withSignalN": 168,
+    "n": 205,
+    "noSignalN": 38,
+    "withSignalN": 167,
     "escalationFailureN": 10,
     "employerPolicyN": 5,
-    "recentUpdateN": 13,
+    "recentUpdateN": 12,
     "safetyN": 8
   },
   "causeSplit90": {
-    "app": 133,
+    "app": 132,
     "ops": 26,
     "employer_config": 3,
     "unclear": 6
@@ -249,9 +249,9 @@
       "stage": "Launch / stability",
       "primaryN90": 31,
       "mentionsN90": 33,
-      "shareOfLowWithSignalPct": 18.5,
+      "shareOfLowWithSignalPct": 18.6,
       "last30N": 17,
-      "last30Pct": 22.7,
+      "last30Pct": 23.3,
       "prior60N": 14,
       "prior60Pct": 10.6,
       "cause": "app",
@@ -271,11 +271,11 @@
       "stage": "On-ground service (ops)",
       "primaryN90": 19,
       "mentionsN90": 36,
-      "shareOfLowWithSignalPct": 11.3,
-      "last30N": 8,
-      "last30Pct": 10.7,
-      "prior60N": 11,
-      "prior60Pct": 8.3,
+      "shareOfLowWithSignalPct": 11.4,
+      "last30N": 7,
+      "last30Pct": 9.6,
+      "prior60N": 12,
+      "prior60Pct": 9.1,
       "cause": "ops",
       "causeSharePct": 84.2,
       "meanSeverity": 1.47,
@@ -293,9 +293,9 @@
       "stage": "Login / OTP",
       "primaryN90": 14,
       "mentionsN90": 18,
-      "shareOfLowWithSignalPct": 8.3,
+      "shareOfLowWithSignalPct": 8.4,
       "last30N": 5,
-      "last30Pct": 6.7,
+      "last30Pct": 6.8,
       "prior60N": 9,
       "prior60Pct": 6.8,
       "cause": "app",
@@ -315,7 +315,7 @@
       "stage": "Booking",
       "primaryN90": 11,
       "mentionsN90": 22,
-      "shareOfLowWithSignalPct": 6.5,
+      "shareOfLowWithSignalPct": 6.6,
       "last30N": 2,
       "last30Pct": 2.7,
       "prior60N": 9,
@@ -336,43 +336,43 @@
       "owner": "Product",
       "stage": "Routing / pickup time",
       "primaryN90": 16,
-      "mentionsN90": 25,
-      "shareOfLowWithSignalPct": 9.5,
+      "mentionsN90": 24,
+      "shareOfLowWithSignalPct": 9.6,
       "last30N": 3,
-      "last30Pct": 4,
+      "last30Pct": 4.1,
       "prior60N": 13,
       "prior60Pct": 9.8,
       "cause": "app",
       "causeSharePct": 62.5,
-      "meanSeverity": 1.2,
+      "meanSeverity": 1.21,
       "meanConfidence": 0.93,
       "affectedVersions": "12.17.0 (10); 12.19.0 (4); 12.16.0 (3)",
-      "dateRange": "2026-07-11 to 2026-10-09",
+      "dateRange": "2026-07-14 to 2026-10-09",
       "devices": "",
       "confidence": "medium",
-      "priority": 12.3
+      "priority": 12.1
     },
     {
       "issue": "ui_confusing",
       "label": "Confusing design or recent UI change",
       "owner": "Product",
       "stage": "Usability / redesign",
-      "primaryN90": 17,
-      "mentionsN90": 24,
-      "shareOfLowWithSignalPct": 10.1,
+      "primaryN90": 16,
+      "mentionsN90": 23,
+      "shareOfLowWithSignalPct": 9.6,
       "last30N": 7,
-      "last30Pct": 9.3,
-      "prior60N": 10,
-      "prior60Pct": 7.6,
+      "last30Pct": 9.6,
+      "prior60N": 9,
+      "prior60Pct": 6.8,
       "cause": "app",
       "causeSharePct": 100,
       "meanSeverity": 1.13,
-      "meanConfidence": 0.8,
+      "meanConfidence": 0.83,
       "affectedVersions": "12.19.0 (7); 12.16.0 (4); 12.18.1 (2)",
-      "dateRange": "2026-07-11 to 2026-10-09",
+      "dateRange": "2026-07-13 to 2026-10-09",
       "devices": "",
       "confidence": "medium",
-      "priority": 11.6
+      "priority": 11
     },
     {
       "issue": "support_escalation",
@@ -403,9 +403,9 @@
       "stage": "Live tracking / ETA",
       "primaryN90": 12,
       "mentionsN90": 21,
-      "shareOfLowWithSignalPct": 7.1,
+      "shareOfLowWithSignalPct": 7.2,
       "last30N": 5,
-      "last30Pct": 6.7,
+      "last30Pct": 6.8,
       "prior60N": 7,
       "prior60Pct": 5.3,
       "cause": "app",
@@ -425,9 +425,9 @@
       "stage": "Other",
       "primaryN90": 16,
       "mentionsN90": 16,
-      "shareOfLowWithSignalPct": 9.5,
+      "shareOfLowWithSignalPct": 9.6,
       "last30N": 3,
-      "last30Pct": 4,
+      "last30Pct": 4.1,
       "prior60N": 13,
       "prior60Pct": 9.8,
       "cause": "app",
@@ -449,7 +449,7 @@
       "mentionsN90": 14,
       "shareOfLowWithSignalPct": 2.4,
       "last30N": 1,
-      "last30Pct": 1.3,
+      "last30Pct": 1.4,
       "prior60N": 3,
       "prior60Pct": 2.3,
       "cause": "app",
@@ -471,7 +471,7 @@
       "mentionsN90": 14,
       "shareOfLowWithSignalPct": 4.8,
       "last30N": 4,
-      "last30Pct": 5.3,
+      "last30Pct": 5.5,
       "prior60N": 4,
       "prior60Pct": 3,
       "cause": "app",
@@ -590,7 +590,7 @@
       "firstSeen": "2026-07-22",
       "n": 89,
       "oneStarPct": 20.2,
-      "baselineOneStarPct": 23.7,
+      "baselineOneStarPct": 23.6,
       "z": -0.76,
       "lowStarN": 24,
       "crashMentionsN": 3,
@@ -613,7 +613,7 @@
       "n": 141,
       "oneStarPct": 27,
       "baselineOneStarPct": 23.3,
-      "z": 1.01,
+      "z": 1.02,
       "lowStarN": 42,
       "crashMentionsN": 5,
       "crashSharePct": 11.9
@@ -643,10 +643,10 @@
     {
       "version": "12.19.0",
       "firstSeen": "2026-09-21",
-      "n": 102,
-      "oneStarPct": 32.4,
+      "n": 105,
+      "oneStarPct": 31.4,
       "baselineOneStarPct": 23.2,
-      "z": 2.2,
+      "z": 2,
       "lowStarN": 36,
       "crashMentionsN": 10,
       "crashSharePct": 27.8
@@ -655,9 +655,9 @@
   "replyHistory": [
     {
       "quarter": "2022-Q4",
-      "lowStarN": 147,
-      "repliedN": 139,
-      "repliedPct": 94.6
+      "lowStarN": 138,
+      "repliedN": 133,
+      "repliedPct": 96.4
     },
     {
       "quarter": "2023-Q1",
@@ -756,7 +756,7 @@
       "repliedPct": 4
     }
   ],
-  "unansweredCritical60dN": 141,
+  "unansweredCritical60dN": 136,
   "labelCoverage": {
     "current": 962,
     "stale": 0,
@@ -771,17 +771,17 @@
     }
   ],
   "changesSincePrevious": {
-    "previous": "2026-10-09",
+    "previous": "2026-10-11",
     "items": [
-      "Store rating 4.64 → 4.64 (+0.00); ratings 114869 → 114869 (+0); version 12.19.0 → 12.19.0.",
-      "Written reviews, last 30 days: average 3.79 → 3.79; 1★ share 26.7% → 26.7% (n 255 → 255).",
-      "Developer replies to 1-2★ (last 30 days): 1.3% → 1.3%."
+      "Store rating 4.64 → 4.64 (+0.00); ratings 114869 → 114879 (+10); version 12.19.0 → 12.19.0.",
+      "Written reviews, last 30 days: average 3.79 → 3.77; 1★ share 26.7% → 27.2% (n 255 → 243).",
+      "Developer replies to 1-2★ (last 30 days): 1.3% → 1.4%."
     ]
   },
   "verdict": {
     "direction": "steady",
     "headline": "Holding steady, but version 12.19.0 is hurting the rating.",
-    "detail": "32.4% of reviews on 12.19.0 are 1★ against 23.2% for other versions (n=102), and 10 of its 36 low-star reviews say the app crashes or will not open. Across all versions, app crashes, won't open, or freezes leads the last 90 days.",
+    "detail": "31.4% of reviews on 12.19.0 are 1★ against 23.2% for other versions (n=105), and 10 of its 36 low-star reviews say the app crashes or will not open. Across all versions, app crashes, won't open, or freezes leads the last 90 days.",
     "firstMove": {
       "owner": "Engineering",
       "check": "Play Console > Android vitals: crash and ANR rate for the newest version vs the previous one, split by device and Android version. Search crash logs for the 'not installed from Play Store' path."
@@ -940,7 +940,7 @@
       "lowStarN": 42,
       "crashMentionsN": 5,
       "flagged": false,
-      "z": 1.01
+      "z": 1.02
     },
     {
       "version": "12.18.0",
@@ -967,13 +967,13 @@
     {
       "version": "12.19.0",
       "firstSeen": "2026-09-21",
-      "n": 102,
+      "n": 105,
       "oneStarN": 33,
-      "oneStarPct": 32.4,
+      "oneStarPct": 31.4,
       "lowStarN": 36,
       "crashMentionsN": 10,
       "flagged": true,
-      "z": 2.2
+      "z": 2
     }
   ],
   "baselineOneStarPct": 24,
@@ -1368,7 +1368,7 @@
     {
       "issue": "Confusing design or recent UI change",
       "owner": "Product",
-      "now": 17,
+      "now": 16,
       "before": 17,
       "successMetric": "Booking completion rate on the new flow ≥ old flow; 'new update worse' mentions to near zero after next release."
     },
@@ -1395,9 +1395,9 @@
       "stage": "Launch / stability",
       "primaryN90": 31,
       "mentionsN90": 33,
-      "shareOfLowWithSignalPct": 18.5,
+      "shareOfLowWithSignalPct": 18.6,
       "last30N": 17,
-      "last30Pct": 22.7,
+      "last30Pct": 23.3,
       "prior60N": 14,
       "prior60Pct": 10.6,
       "cause": "app",
@@ -1447,11 +1447,11 @@
       "stage": "On-ground service (ops)",
       "primaryN90": 19,
       "mentionsN90": 36,
-      "shareOfLowWithSignalPct": 11.3,
-      "last30N": 8,
-      "last30Pct": 10.7,
-      "prior60N": 11,
-      "prior60Pct": 8.3,
+      "shareOfLowWithSignalPct": 11.4,
+      "last30N": 7,
+      "last30Pct": 9.6,
+      "prior60N": 12,
+      "prior60Pct": 9.1,
       "cause": "ops",
       "causeSharePct": 84.2,
       "meanSeverity": 1.47,
@@ -1499,9 +1499,9 @@
       "stage": "Login / OTP",
       "primaryN90": 14,
       "mentionsN90": 18,
-      "shareOfLowWithSignalPct": 8.3,
+      "shareOfLowWithSignalPct": 8.4,
       "last30N": 5,
-      "last30Pct": 6.7,
+      "last30Pct": 6.8,
       "prior60N": 9,
       "prior60Pct": 6.8,
       "cause": "app",
@@ -1551,7 +1551,7 @@
       "stage": "Booking",
       "primaryN90": 11,
       "mentionsN90": 22,
-      "shareOfLowWithSignalPct": 6.5,
+      "shareOfLowWithSignalPct": 6.6,
       "last30N": 2,
       "last30Pct": 2.7,
       "prior60N": 9,
@@ -1602,21 +1602,21 @@
       "owner": "Product",
       "stage": "Routing / pickup time",
       "primaryN90": 16,
-      "mentionsN90": 25,
-      "shareOfLowWithSignalPct": 9.5,
+      "mentionsN90": 24,
+      "shareOfLowWithSignalPct": 9.6,
       "last30N": 3,
-      "last30Pct": 4,
+      "last30Pct": 4.1,
       "prior60N": 13,
       "prior60Pct": 9.8,
       "cause": "app",
       "causeSharePct": 62.5,
-      "meanSeverity": 1.2,
+      "meanSeverity": 1.21,
       "meanConfidence": 0.93,
       "affectedVersions": "12.17.0 (10); 12.19.0 (4); 12.16.0 (3)",
-      "dateRange": "2026-07-11 to 2026-10-09",
+      "dateRange": "2026-07-14 to 2026-10-09",
       "devices": "",
       "confidence": "medium",
-      "priority": 12.3,
+      "priority": 12.1,
       "examples": [
         {
           "id": "d90a3c31-8385-4613-b575-85002f768a9b",
@@ -1653,22 +1653,22 @@
       "label": "Confusing design or recent UI change",
       "owner": "Product",
       "stage": "Usability / redesign",
-      "primaryN90": 17,
-      "mentionsN90": 24,
-      "shareOfLowWithSignalPct": 10.1,
+      "primaryN90": 16,
+      "mentionsN90": 23,
+      "shareOfLowWithSignalPct": 9.6,
       "last30N": 7,
-      "last30Pct": 9.3,
-      "prior60N": 10,
-      "prior60Pct": 7.6,
+      "last30Pct": 9.6,
+      "prior60N": 9,
+      "prior60Pct": 6.8,
       "cause": "app",
       "causeSharePct": 100,
       "meanSeverity": 1.13,
-      "meanConfidence": 0.8,
+      "meanConfidence": 0.83,
       "affectedVersions": "12.19.0 (7); 12.16.0 (4); 12.18.1 (2)",
-      "dateRange": "2026-07-11 to 2026-10-09",
+      "dateRange": "2026-07-13 to 2026-10-09",
       "devices": "",
       "confidence": "medium",
-      "priority": 11.6,
+      "priority": 11,
       "examples": [
         {
           "id": "f7551505-b053-42d1-af7c-5eda85114dcc",
@@ -1759,9 +1759,9 @@
       "stage": "Live tracking / ETA",
       "primaryN90": 12,
       "mentionsN90": 21,
-      "shareOfLowWithSignalPct": 7.1,
+      "shareOfLowWithSignalPct": 7.2,
       "last30N": 5,
-      "last30Pct": 6.7,
+      "last30Pct": 6.8,
       "prior60N": 7,
       "prior60Pct": 5.3,
       "cause": "app",
@@ -1813,7 +1813,7 @@
       "mentionsN90": 14,
       "shareOfLowWithSignalPct": 2.4,
       "last30N": 1,
-      "last30Pct": 1.3,
+      "last30Pct": 1.4,
       "prior60N": 3,
       "prior60Pct": 2.3,
       "cause": "app",
@@ -1865,7 +1865,7 @@
       "mentionsN90": 14,
       "shareOfLowWithSignalPct": 4.8,
       "last30N": 4,
-      "last30Pct": 5.3,
+      "last30Pct": 5.5,
       "prior60N": 4,
       "prior60Pct": 3,
       "cause": "app",

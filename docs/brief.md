@@ -1,29 +1,29 @@
-# How are our Play Store ratings? — 2026-10-11
+# How are our Play Store ratings? — 2026-10-12
 
-*com.moveinsync.ets · reviews up to 2026-10-09 · labels: jev (typesafe/jev-1.13-20260917, taxonomy ef37ad8ac4) · spot-check: round1 45/50*
+*com.moveinsync.ets · reviews up to 2026-10-11 · labels: jev (typesafe/jev-1.13-20260917, taxonomy ef37ad8ac4) · spot-check: round1 45/50*
 
 
 ## Headline
-- **Store rating 4.64★ from 1,14,869 ratings** (version 12.19.0, collected 2026-10-11).
-- **Written reviews, last 30 days:** 255 reviews, average 3.79★, **26.7% are 1★** (prior 30 days: 25.6%, n=238).
-- **Developer replies to 1-2★ reviews, last 30 days: 1 of 75 (1.3%).** 141 critical reviews from the last 60 days have no reply.
-- **Version alert:** 12.19.0 has 32.4% 1★ vs 23.2% baseline (n=102); crash/won't-open in 10 of 36 low-star reviews.
+- **Store rating 4.64★ from 1,14,879 ratings** (version 12.19.0, collected 2026-10-12).
+- **Written reviews, last 30 days:** 243 reviews, average 3.77★, **27.2% are 1★** (prior 30 days: 25.8%, n=229).
+- **Developer replies to 1-2★ reviews, last 30 days: 1 of 73 (1.4%).** 136 critical reviews from the last 60 days have no reply.
+- **Version alert:** 12.19.0 has 31.4% 1★ vs 23.2% baseline (n=105); crash/won't-open in 10 of 36 low-star reviews.
 
-## What changed since the last run (2026-10-09)
-- Store rating 4.64 → 4.64 (+0.00); ratings 114869 → 114869 (+0); version 12.19.0 → 12.19.0.
-- Written reviews, last 30 days: average 3.79 → 3.79; 1★ share 26.7% → 26.7% (n 255 → 255).
-- Developer replies to 1-2★ (last 30 days): 1.3% → 1.3%.
+## What changed since the last run (2026-10-11)
+- Store rating 4.64 → 4.64 (+0.00); ratings 114869 → 114879 (+10); version 12.19.0 → 12.19.0.
+- Written reviews, last 30 days: average 3.79 → 3.77; 1★ share 26.7% → 27.2% (n 255 → 243).
+- Developer replies to 1-2★ (last 30 days): 1.3% → 1.4%.
 
 ## Top issues in 1-2★ reviews (last 90 days)
-207 low-star reviews; 39 had no usable detail and are left out of the shares below (n=168). Ranked by priority: main-complaint count plus half the other mentions, weighted by average severity.
+205 low-star reviews; 38 had no usable detail and are left out of the shares below (n=167). Ranked by priority: main-complaint count plus half the other mentions, weighted by average severity.
 
 | # | Issue | Owner | Main complaint | Mentioned | Last 30d vs prior 60d |
 |---|---|---|---|---|---|
-| 1 | App crashes, won't open, or freezes | Engineering | 31 (18.5%) | 33 | 22.7% vs 10.6% |
-| 2 | Driver, vehicle or cab service (operations) | Transport Ops | 19 (11.3%) | 36 | 10.7% vs 8.3% |
-| 3 | Login, OTP, or getting logged out | Engineering | 14 (8.3%) | 18 | 6.7% vs 6.8% |
-| 4 | Booking or scheduling a ride | Product | 11 (6.5%) | 22 | 2.7% vs 6.8% |
-| 5 | Routing, ride length, or pickup time | Product | 16 (9.5%) | 25 | 4% vs 9.8% |
+| 1 | App crashes, won't open, or freezes | Engineering | 31 (18.6%) | 33 | 23.3% vs 10.6% |
+| 2 | Driver, vehicle or cab service (operations) | Transport Ops | 19 (11.4%) | 36 | 9.6% vs 9.1% |
+| 3 | Login, OTP, or getting logged out | Engineering | 14 (8.4%) | 18 | 6.8% vs 6.8% |
+| 4 | Booking or scheduling a ride | Product | 11 (6.6%) | 22 | 2.7% vs 6.8% |
+| 5 | Routing, ride length, or pickup time | Product | 16 (9.6%) | 24 | 4.1% vs 9.8% |
 
 **App crashes, won't open, or freezes**: "again and again it's getting stopped.. showing that it can't open as it is not downloaded from playstore. in last 3 weeks I uninstall an installed it for 10 times due to the same error" (2026-08-02, v?, 2★)
 
@@ -32,10 +32,10 @@
 **Login, OTP, or getting logged out**: "Such a worst app. I am not receiving the OTP even after trying multiple times. Because of this, I am unable to complete the login/verification process. Please fix this issue as soon as possible." (2026-09-24, v12.19.0, 1★)
 
 ## Who it's about (last 90 days, low-star reviews with detail)
-App: 133 · Operations: 26 · Employer rules: 3 · Unclear: 6
+App: 132 · Operations: 26 · Employer rules: 3 · Unclear: 6
 
 ## Developer replies to 1-2★ reviews by quarter
-- 2022-Q4: 139 of 147 (94.6%)
+- 2022-Q4: 133 of 138 (96.4%)
 - 2023-Q1: 168 of 171 (98.2%)
 - 2023-Q2: 148 of 153 (96.7%)
 - 2023-Q3: 205 of 212 (96.7%)
