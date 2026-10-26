@@ -1,0 +1,21 @@
+{
+  "runId": "2026-10-26T08-03-08-901Z",
+  "collectedAt": "2026-10-26T08:03:08.901Z",
+  "title": "MoveInSync",
+  "score": 4.640726,
+  "scoreText": "4.6",
+  "ratings": 115412,
+  "reviews": 23704,
+  "histogram": {
+    "1": 7384,
+    "2": 860,
+    "3": 1181,
+    "4": 6979,
+    "5": 99003
+  },
+  "installs": "1,000,000+",
+  "version": "12.20.0",
+  "updated": "2026-10-22T07:20:18.000Z",
+  "recentChanges": null,
+  "androidVersion": "8.0"
+}

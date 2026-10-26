@@ -9,3 +9,4 @@
 {"at":"2026-10-11T11:43:11.297Z","app":"com.moveinsync.ets","provider":"jev","model":"typesafe/jev-1.13","taxonomyVersion":"ef37ad8ac4","inScope":962,"labelled":0,"failed":0,"cost":null}
 {"at":"2026-10-12T09:39:21.552Z","app":"com.moveinsync.ets","provider":"jev","model":"typesafe/jev-1.13","taxonomyVersion":"ef37ad8ac4","inScope":958,"labelled":0,"failed":0,"cost":null}
 {"at":"2026-10-19T08:02:40.802Z","app":"com.moveinsync.ets","provider":"jev","model":"typesafe/jev-1.13","taxonomyVersion":"ef37ad8ac4","inScope":959,"labelled":20,"failed":0,"cost":0.0024955980000000003}
+{"at":"2026-10-26T08:03:12.162Z","app":"com.moveinsync.ets","provider":"jev","model":"typesafe/jev-1.13","taxonomyVersion":"ef37ad8ac4","inScope":948,"labelled":13,"failed":0,"cost":0.001624182}
