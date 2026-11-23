@@ -1,187 +1,181 @@
 {
   "app": "com.moveinsync.ets",
-  "asOf": "2026-11-14",
-  "runDate": "2026-11-16",
-  "generatedAt": "2026-11-16T10:05:25.525Z",
+  "asOf": "2026-11-21",
+  "runDate": "2026-11-23",
+  "generatedAt": "2026-11-23T11:06:51.657Z",
   "labelProvider": "jev",
   "labelModel": "typesafe/jev-1.13-20260917",
   "taxonomyVersion": "ef37ad8ac4",
   "store": {
-    "collectedAt": "2026-11-16T10:05:10.776Z",
-    "score": 4.6447415,
-    "ratings": 116205,
-    "reviews": 23823,
+    "collectedAt": "2026-11-23T11:06:41.183Z",
+    "score": 4.6436677,
+    "ratings": 116391,
+    "reviews": 23856,
     "histogram": {
-      "1": 7373,
-      "2": 838,
-      "3": 1180,
-      "4": 6907,
-      "5": 99902
+      "1": 7416,
+      "2": 852,
+      "3": 1164,
+      "4": 6917,
+      "5": 100038
     },
-    "version": "12.21.0",
-    "updated": "2026-11-09T09:03:58.000Z"
+    "version": "12.22.0",
+    "updated": "2026-11-18T08:56:47.000Z"
   },
   "windows": {
     "d7": {
-      "n": 33,
-      "mean": 3.52,
-      "oneStarN": 10,
-      "oneStarPct": 30.3,
-      "lowN": 11,
+      "n": 37,
+      "mean": 4.11,
+      "oneStarN": 6,
+      "oneStarPct": 16.2,
+      "lowN": 8,
       "lowRepliedN": 0,
       "lowRepliedPct": 0
     },
     "d30": {
-      "n": 192,
-      "mean": 3.8,
-      "oneStarN": 47,
-      "oneStarPct": 24.5,
-      "lowN": 55,
-      "lowRepliedN": 3,
-      "lowRepliedPct": 5.5
+      "n": 180,
+      "mean": 3.83,
+      "oneStarN": 42,
+      "oneStarPct": 23.3,
+      "lowN": 50,
+      "lowRepliedN": 2,
+      "lowRepliedPct": 4
     },
     "prev30": {
-      "n": 249,
-      "mean": 3.79,
-      "oneStarN": 67,
-      "oneStarPct": 26.9,
-      "lowN": 73,
-      "lowRepliedN": 0,
-      "lowRepliedPct": 0
-    },
-    "d90": {
-      "n": 671,
-      "mean": 3.85,
-      "oneStarN": 168,
-      "oneStarPct": 25,
-      "lowN": 185,
-      "lowRepliedN": 3,
+      "n": 219,
+      "mean": 3.8,
+      "oneStarN": 58,
+      "oneStarPct": 26.5,
+      "lowN": 63,
+      "lowRepliedN": 1,
       "lowRepliedPct": 1.6
     },
+    "d90": {
+      "n": 648,
+      "mean": 3.86,
+      "oneStarN": 158,
+      "oneStarPct": 24.4,
+      "lowN": 177,
+      "lowRepliedN": 3,
+      "lowRepliedPct": 1.7
+    },
     "d365": {
-      "n": 2775,
-      "mean": 3.84,
-      "oneStarN": 667,
-      "oneStarPct": 24,
-      "lowN": 752,
+      "n": 2768,
+      "mean": 3.85,
+      "oneStarN": 662,
+      "oneStarPct": 23.9,
+      "lowN": 746,
       "lowRepliedN": 20,
       "lowRepliedPct": 2.7
     }
   },
   "weekly": [
     {
-      "weekEnding": "2026-05-23",
-      "n": 70,
-      "oneStarN": 18,
-      "oneStarPct": 25.7
-    },
-    {
       "weekEnding": "2026-05-30",
-      "n": 51,
+      "n": 52,
       "oneStarN": 10,
-      "oneStarPct": 19.6
+      "oneStarPct": 19.2
     },
     {
       "weekEnding": "2026-06-06",
-      "n": 63,
+      "n": 62,
       "oneStarN": 18,
-      "oneStarPct": 28.6
+      "oneStarPct": 29
     },
     {
       "weekEnding": "2026-06-13",
-      "n": 60,
-      "oneStarN": 14,
-      "oneStarPct": 23.3
+      "n": 62,
+      "oneStarN": 15,
+      "oneStarPct": 24.2
     },
     {
       "weekEnding": "2026-06-20",
       "n": 66,
-      "oneStarN": 19,
-      "oneStarPct": 28.8
+      "oneStarN": 20,
+      "oneStarPct": 30.3
     },
     {
       "weekEnding": "2026-06-27",
-      "n": 62,
-      "oneStarN": 20,
-      "oneStarPct": 32.3
-    },
-    {
-      "weekEnding": "2026-07-04",
-      "n": 76,
-      "oneStarN": 28,
-      "oneStarPct": 36.8
-    },
-    {
-      "weekEnding": "2026-07-11",
-      "n": 78,
-      "oneStarN": 14,
-      "oneStarPct": 17.9
-    },
-    {
-      "weekEnding": "2026-07-18",
-      "n": 56,
-      "oneStarN": 11,
-      "oneStarPct": 19.6
-    },
-    {
-      "weekEnding": "2026-07-25",
-      "n": 47,
-      "oneStarN": 6,
-      "oneStarPct": 12.8
-    },
-    {
-      "weekEnding": "2026-08-01",
-      "n": 56,
-      "oneStarN": 10,
-      "oneStarPct": 17.9
-    },
-    {
-      "weekEnding": "2026-08-08",
       "n": 60,
       "oneStarN": 19,
       "oneStarPct": 31.7
     },
     {
-      "weekEnding": "2026-08-15",
+      "weekEnding": "2026-07-04",
+      "n": 77,
+      "oneStarN": 27,
+      "oneStarPct": 35.1
+    },
+    {
+      "weekEnding": "2026-07-11",
+      "n": 77,
+      "oneStarN": 15,
+      "oneStarPct": 19.5
+    },
+    {
+      "weekEnding": "2026-07-18",
+      "n": 55,
+      "oneStarN": 10,
+      "oneStarPct": 18.2
+    },
+    {
+      "weekEnding": "2026-07-25",
+      "n": 48,
+      "oneStarN": 7,
+      "oneStarPct": 14.6
+    },
+    {
+      "weekEnding": "2026-08-01",
+      "n": 58,
+      "oneStarN": 11,
+      "oneStarPct": 19
+    },
+    {
+      "weekEnding": "2026-08-08",
       "n": 58,
       "oneStarN": 18,
       "oneStarPct": 31
     },
     {
+      "weekEnding": "2026-08-15",
+      "n": 57,
+      "oneStarN": 18,
+      "oneStarPct": 31.6
+    },
+    {
       "weekEnding": "2026-08-22",
-      "n": 61,
-      "oneStarN": 16,
-      "oneStarPct": 26.2
+      "n": 60,
+      "oneStarN": 15,
+      "oneStarPct": 25
     },
     {
       "weekEnding": "2026-08-29",
-      "n": 50,
-      "oneStarN": 11,
-      "oneStarPct": 22
+      "n": 51,
+      "oneStarN": 12,
+      "oneStarPct": 23.5
     },
     {
       "weekEnding": "2026-09-05",
-      "n": 49,
-      "oneStarN": 15,
-      "oneStarPct": 30.6
+      "n": 51,
+      "oneStarN": 14,
+      "oneStarPct": 27.5
     },
     {
       "weekEnding": "2026-09-12",
-      "n": 54,
+      "n": 51,
       "oneStarN": 10,
-      "oneStarPct": 18.5
+      "oneStarPct": 19.6
     },
     {
       "weekEnding": "2026-09-19",
-      "n": 62,
-      "oneStarN": 14,
-      "oneStarPct": 22.6
+      "n": 65,
+      "oneStarN": 15,
+      "oneStarPct": 23.1
     },
     {
       "weekEnding": "2026-09-26",
-      "n": 61,
-      "oneStarN": 18,
-      "oneStarPct": 29.5
+      "n": 58,
+      "oneStarN": 17,
+      "oneStarPct": 29.3
     },
     {
       "weekEnding": "2026-10-03",
@@ -191,9 +185,9 @@
     },
     {
       "weekEnding": "2026-10-10",
-      "n": 63,
+      "n": 64,
       "oneStarN": 18,
-      "oneStarPct": 28.6
+      "oneStarPct": 28.1
     },
     {
       "weekEnding": "2026-10-17",
@@ -204,41 +198,47 @@
     {
       "weekEnding": "2026-10-24",
       "n": 44,
-      "oneStarN": 9,
-      "oneStarPct": 20.5
+      "oneStarN": 10,
+      "oneStarPct": 22.7
     },
     {
       "weekEnding": "2026-10-31",
-      "n": 44,
+      "n": 47,
       "oneStarN": 9,
-      "oneStarPct": 20.5
+      "oneStarPct": 19.1
     },
     {
       "weekEnding": "2026-11-07",
-      "n": 57,
-      "oneStarN": 14,
-      "oneStarPct": 24.6
+      "n": 53,
+      "oneStarN": 13,
+      "oneStarPct": 24.5
     },
     {
       "weekEnding": "2026-11-14",
       "n": 33,
       "oneStarN": 10,
       "oneStarPct": 30.3
+    },
+    {
+      "weekEnding": "2026-11-21",
+      "n": 37,
+      "oneStarN": 6,
+      "oneStarPct": 16.2
     }
   ],
   "low90": {
-    "n": 185,
-    "noSignalN": 34,
-    "withSignalN": 151,
-    "escalationFailureN": 13,
-    "employerPolicyN": 6,
+    "n": 177,
+    "noSignalN": 31,
+    "withSignalN": 146,
+    "escalationFailureN": 14,
+    "employerPolicyN": 4,
     "recentUpdateN": 10,
-    "safetyN": 11
+    "safetyN": 10
   },
   "causeSplit90": {
-    "app": 105,
-    "ops": 35,
-    "employer_config": 3,
+    "app": 104,
+    "ops": 33,
+    "employer_config": 1,
     "unclear": 8
   },
   "issues": [
@@ -247,44 +247,66 @@
       "label": "App crashes, won't open, or freezes",
       "owner": "Engineering",
       "stage": "Launch / stability",
-      "primaryN90": 29,
-      "mentionsN90": 31,
-      "shareOfLowWithSignalPct": 19.2,
-      "last30N": 6,
-      "last30Pct": 10.9,
+      "primaryN90": 30,
+      "mentionsN90": 32,
+      "shareOfLowWithSignalPct": 20.5,
+      "last30N": 7,
+      "last30Pct": 14,
       "prior60N": 23,
-      "prior60Pct": 17.7,
+      "prior60Pct": 18.1,
       "cause": "app",
-      "causeSharePct": 93.1,
-      "meanSeverity": 1.87,
+      "causeSharePct": 93.3,
+      "meanSeverity": 1.88,
       "meanConfidence": 0.97,
       "affectedVersions": "12.19.0 (10); 12.20.0 (5); 12.18.1 (4)",
-      "dateRange": "2026-08-17 to 2026-11-11",
+      "dateRange": "2026-08-26 to 2026-11-21",
       "devices": "oneplus (1); pixel (1); vivo (1); android 17 (1)",
       "confidence": "high",
-      "priority": 28.1
+      "priority": 29.1
     },
     {
       "issue": "driver_vehicle_service",
       "label": "Driver, vehicle or cab service (operations)",
       "owner": "Transport Ops",
       "stage": "On-ground service (ops)",
-      "primaryN90": 22,
-      "mentionsN90": 41,
-      "shareOfLowWithSignalPct": 14.6,
-      "last30N": 7,
-      "last30Pct": 12.7,
-      "prior60N": 15,
-      "prior60Pct": 11.5,
+      "primaryN90": 21,
+      "mentionsN90": 36,
+      "shareOfLowWithSignalPct": 14.4,
+      "last30N": 4,
+      "last30Pct": 8,
+      "prior60N": 17,
+      "prior60Pct": 13.4,
       "cause": "ops",
-      "causeSharePct": 90.9,
-      "meanSeverity": 1.56,
+      "causeSharePct": 90.5,
+      "meanSeverity": 1.58,
       "meanConfidence": 0.77,
-      "affectedVersions": "12.20.0 (9); 12.17.0 (7); 12.18.0 (6)",
-      "dateRange": "2026-08-19 to 2026-11-13",
+      "affectedVersions": "12.20.0 (9); 12.18.0 (6); 12.19.0 (5)",
+      "dateRange": "2026-08-24 to 2026-11-21",
       "devices": "",
       "confidence": "medium",
-      "priority": 24.6
+      "priority": 22.5
+    },
+    {
+      "issue": "login_otp_session",
+      "label": "Login, OTP, or getting logged out",
+      "owner": "Engineering",
+      "stage": "Login / OTP",
+      "primaryN90": 16,
+      "mentionsN90": 19,
+      "shareOfLowWithSignalPct": 11,
+      "last30N": 5,
+      "last30Pct": 10,
+      "prior60N": 11,
+      "prior60Pct": 8.7,
+      "cause": "app",
+      "causeSharePct": 93.8,
+      "meanSeverity": 1.89,
+      "meanConfidence": 0.85,
+      "affectedVersions": "12.17.0 (4); 12.19.0 (3); 12.20.0 (2)",
+      "dateRange": "2026-09-02 to 2026-11-20",
+      "devices": "",
+      "confidence": "medium",
+      "priority": 16.5
     },
     {
       "issue": "support_escalation",
@@ -292,43 +314,21 @@
       "owner": "Customer Implementation",
       "stage": "Support / escalation",
       "primaryN90": 10,
-      "mentionsN90": 27,
-      "shareOfLowWithSignalPct": 6.6,
-      "last30N": 4,
-      "last30Pct": 7.3,
-      "prior60N": 6,
-      "prior60Pct": 4.6,
-      "cause": "app",
-      "causeSharePct": 60,
-      "meanSeverity": 1.7,
-      "meanConfidence": 0.84,
-      "affectedVersions": "12.19.0 (5); 12.17.0 (5); 12.20.0 (4)",
-      "dateRange": "2026-08-17 to 2026-11-12",
+      "mentionsN90": 25,
+      "shareOfLowWithSignalPct": 6.8,
+      "last30N": 5,
+      "last30Pct": 10,
+      "prior60N": 5,
+      "prior60Pct": 3.9,
+      "cause": "ops",
+      "causeSharePct": 50,
+      "meanSeverity": 1.68,
+      "meanConfidence": 0.85,
+      "affectedVersions": "12.19.0 (5); 12.20.0 (4); 12.18.0 (4)",
+      "dateRange": "2026-08-27 to 2026-11-21",
       "devices": "",
       "confidence": "medium",
-      "priority": 15.7
-    },
-    {
-      "issue": "login_otp_session",
-      "label": "Login, OTP, or getting logged out",
-      "owner": "Engineering",
-      "stage": "Login / OTP",
-      "primaryN90": 14,
-      "mentionsN90": 17,
-      "shareOfLowWithSignalPct": 9.3,
-      "last30N": 3,
-      "last30Pct": 5.5,
-      "prior60N": 11,
-      "prior60Pct": 8.5,
-      "cause": "app",
-      "causeSharePct": 92.9,
-      "meanSeverity": 1.88,
-      "meanConfidence": 0.84,
-      "affectedVersions": "12.17.0 (4); 12.19.0 (3); 12.20.0 (2)",
-      "dateRange": "2026-09-02 to 2026-11-01",
-      "devices": "",
-      "confidence": "medium",
-      "priority": 14.6
+      "priority": 14.7
     },
     {
       "issue": "booking_schedule",
@@ -337,42 +337,20 @@
       "stage": "Booking",
       "primaryN90": 8,
       "mentionsN90": 19,
-      "shareOfLowWithSignalPct": 5.3,
-      "last30N": 3,
-      "last30Pct": 5.5,
-      "prior60N": 5,
-      "prior60Pct": 3.8,
+      "shareOfLowWithSignalPct": 5.5,
+      "last30N": 2,
+      "last30Pct": 4,
+      "prior60N": 6,
+      "prior60Pct": 4.7,
       "cause": "app",
       "causeSharePct": 87.5,
       "meanSeverity": 1.84,
-      "meanConfidence": 0.81,
+      "meanConfidence": 0.8,
       "affectedVersions": "12.20.0 (6); 12.19.0 (4); 12.18.0 (4)",
-      "dateRange": "2026-08-23 to 2026-11-04",
+      "dateRange": "2026-08-29 to 2026-11-16",
       "devices": "",
       "confidence": "low",
       "priority": 12.4
-    },
-    {
-      "issue": "routing_pickup_time",
-      "label": "Routing, ride length, or pickup time",
-      "owner": "Product",
-      "stage": "Routing / pickup time",
-      "primaryN90": 13,
-      "mentionsN90": 20,
-      "shareOfLowWithSignalPct": 8.6,
-      "last30N": 3,
-      "last30Pct": 5.5,
-      "prior60N": 10,
-      "prior60Pct": 7.7,
-      "cause": "ops",
-      "causeSharePct": 46.2,
-      "meanSeverity": 1.3,
-      "meanConfidence": 0.92,
-      "affectedVersions": "12.17.0 (9); 12.19.0 (4); 12.20.0 (2)",
-      "dateRange": "2026-08-19 to 2026-11-12",
-      "devices": "",
-      "confidence": "medium",
-      "priority": 10.7
     },
     {
       "issue": "ui_confusing",
@@ -380,84 +358,62 @@
       "owner": "Product",
       "stage": "Usability / redesign",
       "primaryN90": 12,
-      "mentionsN90": 21,
-      "shareOfLowWithSignalPct": 7.9,
-      "last30N": 4,
-      "last30Pct": 7.3,
-      "prior60N": 8,
-      "prior60Pct": 6.2,
+      "mentionsN90": 22,
+      "shareOfLowWithSignalPct": 8.2,
+      "last30N": 2,
+      "last30Pct": 4,
+      "prior60N": 10,
+      "prior60Pct": 7.9,
       "cause": "app",
       "causeSharePct": 91.7,
-      "meanSeverity": 1.29,
+      "meanSeverity": 1.32,
       "meanConfidence": 0.82,
       "affectedVersions": "12.19.0 (7); 12.20.0 (4); 12.18.1 (3)",
-      "dateRange": "2026-08-27 to 2026-11-03",
+      "dateRange": "2026-08-27 to 2026-11-16",
       "devices": "",
       "confidence": "medium",
-      "priority": 10.6
+      "priority": 11.2
     },
     {
       "issue": "tracking_eta",
       "label": "Live tracking or ETA",
       "owner": "Engineering",
       "stage": "Live tracking / ETA",
-      "primaryN90": 11,
-      "mentionsN90": 19,
-      "shareOfLowWithSignalPct": 7.3,
+      "primaryN90": 10,
+      "mentionsN90": 17,
+      "shareOfLowWithSignalPct": 6.8,
       "last30N": 4,
-      "last30Pct": 7.3,
-      "prior60N": 7,
-      "prior60Pct": 5.4,
-      "cause": "app",
-      "causeSharePct": 100,
-      "meanSeverity": 1.32,
-      "meanConfidence": 0.89,
-      "affectedVersions": "12.19.0 (6); 12.17.0 (5); 12.21.0 (2)",
-      "dateRange": "2026-08-17 to 2026-11-14",
-      "devices": "samsung (1)",
-      "confidence": "medium",
-      "priority": 9.9
-    },
-    {
-      "issue": "safety_incident",
-      "label": "Safety concern",
-      "owner": "Safety",
-      "stage": "Safety",
-      "primaryN90": 3,
-      "mentionsN90": 11,
-      "shareOfLowWithSignalPct": 2,
-      "last30N": 2,
-      "last30Pct": 3.6,
-      "prior60N": 1,
-      "prior60Pct": 0.8,
-      "cause": "ops",
-      "causeSharePct": 100,
-      "meanSeverity": 2.45,
-      "meanConfidence": 0.89,
-      "affectedVersions": "12.21.0 (2); 12.17.0 (2); 12.22.0 (1)",
-      "dateRange": "2026-08-19 to 2026-11-13",
-      "devices": "",
-      "confidence": "low",
-      "priority": 8.6
-    },
-    {
-      "issue": "notifications",
-      "label": "Notifications",
-      "owner": "Product",
-      "stage": "Notifications",
-      "primaryN90": 7,
-      "mentionsN90": 15,
-      "shareOfLowWithSignalPct": 4.6,
-      "last30N": 1,
-      "last30Pct": 1.8,
+      "last30Pct": 8,
       "prior60N": 6,
-      "prior60Pct": 4.6,
+      "prior60Pct": 4.7,
       "cause": "app",
       "causeSharePct": 100,
-      "meanSeverity": 1.53,
+      "meanSeverity": 1.29,
+      "meanConfidence": 0.87,
+      "affectedVersions": "12.19.0 (6); 12.22.0 (2); 12.21.0 (2)",
+      "dateRange": "2026-08-24 to 2026-11-16",
+      "devices": "",
+      "confidence": "medium",
+      "priority": 8.7
+    },
+    {
+      "issue": "routing_pickup_time",
+      "label": "Routing, ride length, or pickup time",
+      "owner": "Product",
+      "stage": "Routing / pickup time",
+      "primaryN90": 9,
+      "mentionsN90": 15,
+      "shareOfLowWithSignalPct": 6.2,
+      "last30N": 2,
+      "last30Pct": 4,
+      "prior60N": 7,
+      "prior60Pct": 5.5,
+      "cause": "app",
+      "causeSharePct": 55.6,
+      "meanSeverity": 1.4,
       "meanConfidence": 0.96,
-      "affectedVersions": "12.17.0 (5); 12.18.1 (3); 12.19.0 (2)",
-      "dateRange": "2026-08-17 to 2026-11-09",
+      "affectedVersions": "12.19.0 (4); 12.17.0 (4); 12.20.0 (2)",
+      "dateRange": "2026-08-24 to 2026-11-12",
       "devices": "",
       "confidence": "low",
       "priority": 8.4
@@ -468,21 +424,65 @@
       "owner": "Product",
       "stage": "Boarding / check-in",
       "primaryN90": 4,
-      "mentionsN90": 12,
-      "shareOfLowWithSignalPct": 2.6,
+      "mentionsN90": 13,
+      "shareOfLowWithSignalPct": 2.7,
       "last30N": 2,
-      "last30Pct": 3.6,
+      "last30Pct": 4,
       "prior60N": 2,
-      "prior60Pct": 1.5,
+      "prior60Pct": 1.6,
       "cause": "app",
       "causeSharePct": 75,
-      "meanSeverity": 1.83,
+      "meanSeverity": 1.85,
       "meanConfidence": 0.74,
-      "affectedVersions": "12.17.0 (4); 12.20.0 (2); 12.19.0 (1)",
-      "dateRange": "2026-09-02 to 2026-11-05",
+      "affectedVersions": "12.17.0 (4); 12.20.0 (2); 12.22.0 (1)",
+      "dateRange": "2026-09-02 to 2026-11-20",
       "devices": "",
       "confidence": "low",
-      "priority": 7.3
+      "priority": 7.9
+    },
+    {
+      "issue": "notifications",
+      "label": "Notifications",
+      "owner": "Product",
+      "stage": "Notifications",
+      "primaryN90": 6,
+      "mentionsN90": 14,
+      "shareOfLowWithSignalPct": 4.1,
+      "last30N": 1,
+      "last30Pct": 2,
+      "prior60N": 5,
+      "prior60Pct": 3.9,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.57,
+      "meanConfidence": 0.98,
+      "affectedVersions": "12.18.1 (3); 12.17.0 (3); 12.19.0 (2)",
+      "dateRange": "2026-09-02 to 2026-11-16",
+      "devices": "",
+      "confidence": "low",
+      "priority": 7.9
+    },
+    {
+      "issue": "safety_incident",
+      "label": "Safety concern",
+      "owner": "Safety",
+      "stage": "Safety",
+      "primaryN90": 3,
+      "mentionsN90": 10,
+      "shareOfLowWithSignalPct": 2.1,
+      "last30N": 2,
+      "last30Pct": 4,
+      "prior60N": 1,
+      "prior60Pct": 0.8,
+      "cause": "ops",
+      "causeSharePct": 100,
+      "meanSeverity": 2.4,
+      "meanConfidence": 0.89,
+      "affectedVersions": "12.21.0 (2); 12.22.0 (1); 12.20.0 (1)",
+      "dateRange": "2026-08-24 to 2026-11-13",
+      "devices": "",
+      "confidence": "low",
+      "priority": 7.8
     },
     {
       "issue": "other",
@@ -491,42 +491,42 @@
       "stage": "Other",
       "primaryN90": 10,
       "mentionsN90": 10,
-      "shareOfLowWithSignalPct": 6.6,
-      "last30N": 4,
-      "last30Pct": 7.3,
-      "prior60N": 6,
-      "prior60Pct": 4.6,
+      "shareOfLowWithSignalPct": 6.8,
+      "last30N": 5,
+      "last30Pct": 10,
+      "prior60N": 5,
+      "prior60Pct": 3.9,
       "cause": "app",
-      "causeSharePct": 90,
-      "meanSeverity": 1.2,
+      "causeSharePct": 100,
+      "meanSeverity": 1.4,
       "meanConfidence": 0.7,
-      "affectedVersions": "12.21.0 (3); 12.19.0 (2); 12.17.0 (2)",
-      "dateRange": "2026-08-19 to 2026-11-11",
+      "affectedVersions": "12.21.0 (3); 12.18.1 (2); 12.19.0 (2)",
+      "dateRange": "2026-09-01 to 2026-11-17",
       "devices": "",
       "confidence": "medium",
-      "priority": 6
+      "priority": 7
     },
     {
       "issue": "performance_slow",
       "label": "Slow, laggy, battery or data drain",
       "owner": "Engineering",
       "stage": "Performance",
-      "primaryN90": 5,
-      "mentionsN90": 6,
-      "shareOfLowWithSignalPct": 3.3,
+      "primaryN90": 4,
+      "mentionsN90": 5,
+      "shareOfLowWithSignalPct": 2.7,
       "last30N": 1,
-      "last30Pct": 1.8,
-      "prior60N": 4,
-      "prior60Pct": 3.1,
+      "last30Pct": 2,
+      "prior60N": 3,
+      "prior60Pct": 2.4,
       "cause": "app",
       "causeSharePct": 100,
       "meanSeverity": 1,
-      "meanConfidence": 0.92,
-      "affectedVersions": "12.17.0 (2); 12.20.0 (1); 12.18.1 (1)",
-      "dateRange": "2026-08-19 to 2026-10-24",
-      "devices": "oneplus (1)",
+      "meanConfidence": 0.9,
+      "affectedVersions": "12.20.0 (1); 12.18.1 (1); 12.18.0 (1)",
+      "dateRange": "2026-08-27 to 2026-10-24",
+      "devices": "",
       "confidence": "low",
-      "priority": 2.8
+      "priority": 2.3
     },
     {
       "issue": "profile_settings",
@@ -553,23 +553,12 @@
   ],
   "versionFlags": [
     {
-      "version": "12.16.0",
-      "firstSeen": "2026-07-22",
-      "n": 89,
-      "oneStarPct": 20.2,
-      "baselineOneStarPct": 23.6,
-      "z": -0.76,
-      "lowStarN": 24,
-      "crashMentionsN": 3,
-      "crashSharePct": 12.5
-    },
-    {
       "version": "12.16.1",
       "firstSeen": "2026-07-29",
       "n": 38,
       "oneStarPct": 34.2,
-      "baselineOneStarPct": 23.3,
-      "z": 1.58,
+      "baselineOneStarPct": 23.2,
+      "z": 1.6,
       "lowStarN": 13,
       "crashMentionsN": 3,
       "crashSharePct": 23.1
@@ -579,8 +568,8 @@
       "firstSeen": "2026-08-07",
       "n": 143,
       "oneStarPct": 28,
-      "baselineOneStarPct": 23.2,
-      "z": 1.34,
+      "baselineOneStarPct": 23.1,
+      "z": 1.37,
       "lowStarN": 44,
       "crashMentionsN": 5,
       "crashSharePct": 11.4
@@ -590,8 +579,8 @@
       "firstSeen": "2026-08-21",
       "n": 65,
       "oneStarPct": 20,
-      "baselineOneStarPct": 23.6,
-      "z": -0.68,
+      "baselineOneStarPct": 23.5,
+      "z": -0.67,
       "lowStarN": 13,
       "crashMentionsN": 0,
       "crashSharePct": 0
@@ -599,21 +588,21 @@
     {
       "version": "12.18.1",
       "firstSeen": "2026-09-09",
-      "n": 94,
-      "oneStarPct": 24.5,
-      "baselineOneStarPct": 23.5,
-      "z": 0.23,
-      "lowStarN": 25,
+      "n": 95,
+      "oneStarPct": 25.3,
+      "baselineOneStarPct": 23.3,
+      "z": 0.44,
+      "lowStarN": 26,
       "crashMentionsN": 4,
-      "crashSharePct": 16
+      "crashSharePct": 15.4
     },
     {
       "version": "12.19.0",
       "firstSeen": "2026-09-21",
       "n": 124,
       "oneStarPct": 28.2,
-      "baselineOneStarPct": 23.3,
-      "z": 1.31,
+      "baselineOneStarPct": 23.2,
+      "z": 1.34,
       "lowStarN": 38,
       "crashMentionsN": 10,
       "crashSharePct": 26.3
@@ -623,8 +612,8 @@
       "firstSeen": "2026-10-06",
       "n": 107,
       "oneStarPct": 22.4,
-      "baselineOneStarPct": 23.6,
-      "z": -0.27,
+      "baselineOneStarPct": 23.5,
+      "z": -0.25,
       "lowStarN": 28,
       "crashMentionsN": 5,
       "crashSharePct": 17.9
@@ -632,21 +621,32 @@
     {
       "version": "12.21.0",
       "firstSeen": "2026-10-23",
-      "n": 61,
-      "oneStarPct": 21.3,
-      "baselineOneStarPct": 23.6,
-      "z": -0.41,
-      "lowStarN": 17,
+      "n": 65,
+      "oneStarPct": 20,
+      "baselineOneStarPct": 23.5,
+      "z": -0.67,
+      "lowStarN": 18,
       "crashMentionsN": 3,
-      "crashSharePct": 17.6
+      "crashSharePct": 16.7
+    },
+    {
+      "version": "12.22.0",
+      "firstSeen": "2026-11-08",
+      "n": 36,
+      "oneStarPct": 13.9,
+      "baselineOneStarPct": 23.6,
+      "z": -1.37,
+      "lowStarN": 6,
+      "crashMentionsN": 1,
+      "crashSharePct": 16.7
     }
   ],
   "replyHistory": [
     {
       "quarter": "2022-Q4",
-      "lowStarN": 62,
-      "repliedN": 59,
-      "repliedPct": 95.2
+      "lowStarN": 48,
+      "repliedN": 46,
+      "repliedPct": 95.8
     },
     {
       "quarter": "2023-Q1",
@@ -740,14 +740,14 @@
     },
     {
       "quarter": "2026-Q4",
-      "lowStarN": 87,
+      "lowStarN": 95,
       "repliedN": 3,
-      "repliedPct": 3.4
+      "repliedPct": 3.2
     }
   ],
-  "unansweredCritical60dN": 125,
+  "unansweredCritical60dN": 110,
   "labelCoverage": {
-    "current": 1038,
+    "current": 1049,
     "stale": 0,
     "unlabelled": 0
   },
@@ -760,18 +760,17 @@
     }
   ],
   "changesSincePrevious": {
-    "previous": "2026-11-09",
+    "previous": "2026-11-16",
     "items": [
-      "Store rating 4.64 → 4.64 (+0.00); ratings 116005 → 116205 (+200); version 12.21.0 → 12.21.0.",
-      "Written reviews, last 30 days: average 3.87 → 3.8; 1★ share 23.5% → 24.5% (n 213 → 192).",
-      "Developer replies to 1-2★ (last 30 days): 5.2% → 5.5%.",
-      "Booking or scheduling a ride: 11 → 8 main-complaint reviews in the 90-day window."
+      "Store rating 4.64 → 4.64 (-0.00); ratings 116205 → 116391 (+186); version 12.21.0 → 12.22.0.",
+      "Written reviews, last 30 days: average 3.8 → 3.83; 1★ share 24.5% → 23.3% (n 192 → 180).",
+      "Developer replies to 1-2★ (last 30 days): 5.5% → 4%."
     ]
   },
   "verdict": {
-    "direction": "steady",
-    "headline": "Holding steady. App crashes, won't open, or freezes is the top complaint.",
-    "detail": "1★ share of written reviews is 24.5% over the last 30 days against 26.9% the 30 days before.",
+    "direction": "better",
+    "headline": "Better this month. App crashes, won't open, or freezes is the top complaint.",
+    "detail": "1★ share of written reviews is 23.3% over the last 30 days against 26.5% the 30 days before.",
     "firstMove": {
       "owner": "Engineering",
       "check": "Play Console > Android vitals: crash and ANR rate for the newest version vs the previous one, split by device and Android version. Search crash logs for the 'not installed from Play Store' path."
@@ -792,9 +791,9 @@
     {
       "version": "12.12.3",
       "firstSeen": "2026-05-15",
-      "n": 113,
+      "n": 112,
       "oneStarN": 23,
-      "oneStarPct": 20.4,
+      "oneStarPct": 20.5,
       "lowStarN": 25,
       "crashMentionsN": 2,
       "flagged": false,
@@ -814,9 +813,9 @@
     {
       "version": "12.13.1",
       "firstSeen": "2026-06-05",
-      "n": 95,
+      "n": 94,
       "oneStarN": 29,
-      "oneStarPct": 30.5,
+      "oneStarPct": 30.9,
       "lowStarN": 29,
       "crashMentionsN": 1,
       "flagged": false,
@@ -869,13 +868,13 @@
     {
       "version": "12.16.0",
       "firstSeen": "2026-07-22",
-      "n": 89,
+      "n": 88,
       "oneStarN": 18,
-      "oneStarPct": 20.2,
+      "oneStarPct": 20.5,
       "lowStarN": 24,
       "crashMentionsN": 3,
       "flagged": false,
-      "z": -0.76
+      "z": null
     },
     {
       "version": "12.16.1",
@@ -886,7 +885,7 @@
       "lowStarN": 13,
       "crashMentionsN": 3,
       "flagged": false,
-      "z": 1.58
+      "z": 1.6
     },
     {
       "version": "12.17.0",
@@ -897,7 +896,7 @@
       "lowStarN": 44,
       "crashMentionsN": 5,
       "flagged": false,
-      "z": 1.34
+      "z": 1.37
     },
     {
       "version": "12.18.0",
@@ -908,18 +907,18 @@
       "lowStarN": 13,
       "crashMentionsN": 0,
       "flagged": false,
-      "z": -0.68
+      "z": -0.67
     },
     {
       "version": "12.18.1",
       "firstSeen": "2026-09-09",
-      "n": 94,
-      "oneStarN": 23,
-      "oneStarPct": 24.5,
-      "lowStarN": 25,
+      "n": 95,
+      "oneStarN": 24,
+      "oneStarPct": 25.3,
+      "lowStarN": 26,
       "crashMentionsN": 4,
       "flagged": false,
-      "z": 0.23
+      "z": 0.44
     },
     {
       "version": "12.19.0",
@@ -930,7 +929,7 @@
       "lowStarN": 38,
       "crashMentionsN": 10,
       "flagged": false,
-      "z": 1.31
+      "z": 1.34
     },
     {
       "version": "12.20.0",
@@ -941,22 +940,47 @@
       "lowStarN": 28,
       "crashMentionsN": 5,
       "flagged": false,
-      "z": -0.27
+      "z": -0.25
     },
     {
       "version": "12.21.0",
       "firstSeen": "2026-10-23",
-      "n": 61,
+      "n": 65,
       "oneStarN": 13,
-      "oneStarPct": 21.3,
-      "lowStarN": 17,
+      "oneStarPct": 20,
+      "lowStarN": 18,
       "crashMentionsN": 3,
       "flagged": false,
-      "z": -0.41
+      "z": -0.67
+    },
+    {
+      "version": "12.22.0",
+      "firstSeen": "2026-11-08",
+      "n": 36,
+      "oneStarN": 5,
+      "oneStarPct": 13.9,
+      "lowStarN": 6,
+      "crashMentionsN": 1,
+      "flagged": false,
+      "z": -1.37
     }
   ],
-  "baselineOneStarPct": 24,
+  "baselineOneStarPct": 23.9,
   "replyQueue": [
+    {
+      "id": "ccefa0e6-b497-4d49-a74c-aa168bd6200d",
+      "date": "2026-11-17",
+      "stars": 1,
+      "version": "12.18.1",
+      "text": "very bad 43 days ofter payment pay 16 trips shortage i completed 36 trips but showing 20 trips bill was low total 12800 paid I ask acounts but data was chek 15 take time driver spend pocket money bill was stucked suffer every driver s i evernoth work trip shets but take time very worest",
+      "issue": "Other specific issue",
+      "owner": "Unassigned",
+      "severity": 3,
+      "safety": false,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=ccefa0e6-b497-4d49-a74c-aa168bd6200d",
+      "draft": "We understand you're seeing a discrepancy in your trip count and payment after 43 days. Please email app@moveinsync.com with your registered phone number and the trip dates for which you see a shortage so we can investigate.",
+      "draftKind": "llm"
+    },
     {
       "id": "f95dba5f-47c6-4857-9f49-afb6338e1ea8",
       "date": "2026-11-13",
@@ -1042,31 +1066,87 @@
       "draftKind": "llm"
     },
     {
-      "id": "145e34ef-5530-438b-bb8b-9dff2aed6e90",
-      "date": "2026-09-18",
+      "id": "04d40462-f4c8-49c5-95f4-55cb92127012",
+      "date": "2026-11-21",
       "stars": 1,
-      "version": "12.18.1",
-      "text": "first if the all the app itself is garbage , would crash after every 20days. Then the service , I dont know why companies even go with these retarded service , no ethics and no responsibility at all. Companies should absolutely avoid",
+      "version": null,
+      "text": "facing issue with app, auto closing after opening",
       "issue": "App crashes, won't open, or freezes",
       "owner": "Engineering",
-      "severity": 3,
+      "severity": 2,
       "safety": false,
-      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=145e34ef-5530-438b-bb8b-9dff2aed6e90",
-      "draft": "We understand the app is crashing for you. To investigate this issue, please email app@moveinsync.com with your phone model and Android version.",
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=04d40462-f4c8-49c5-95f4-55cb92127012",
+      "draft": "We're sorry the app is closing unexpectedly. Please email app@moveinsync.com with your phone model and Android version so we can investigate.",
       "draftKind": "llm"
     },
     {
-      "id": "fb887543-7a35-42b3-9490-f61c28b841d9",
-      "date": "2026-09-15",
+      "id": "658b61e5-c584-4e01-b6e5-d1b38c13bbe9",
+      "date": "2026-11-20",
       "stars": 1,
-      "version": "12.18.1",
-      "text": "Extremely disappointing experience with Move In Sync. Why does the company keep assigning rude, disrespectful, and abusive cab drivers? Is there no proper qualification, screening, or behavioural training before hiring drivers? I have repeatedly faced issues with drivers, especially in CNX Gurugram, where basic manners, respect, professionalism, and ethics seem to be completely missing. What is even more frustrating is that there appears to be no proper option to rate or provide meaningful",
-      "issue": "Driver, vehicle or cab service (operations)",
-      "owner": "Transport Ops",
-      "severity": 3,
-      "safety": true,
-      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=fb887543-7a35-42b3-9490-f61c28b841d9",
-      "draft": "We are concerned to hear about your experience with driver behavior. This is not acceptable and needs to be investigated immediately. Please email app@moveinsync.com with the trip date, time, and route details so we can look into this. We also appreciate your feedback on the rating option.",
+      "version": "12.22.0",
+      "text": "I have been trying to receive the OTP via email or phone number for the past 3 days, but I haven't received it.",
+      "issue": "Login, OTP, or getting logged out",
+      "owner": "Engineering",
+      "severity": 2,
+      "safety": false,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=658b61e5-c584-4e01-b6e5-d1b38c13bbe9",
+      "draft": "We understand you are unable to receive OTPs for login. Please email app@moveinsync.com with your registered phone number and email ID so we can investigate this issue.",
+      "draftKind": "llm"
+    },
+    {
+      "id": "94e458f1-8b57-4818-9897-6b2b74423779",
+      "date": "2026-11-18",
+      "stars": 1,
+      "version": "12.22.0",
+      "text": "application not working, while I am trying to open this app in my phone application will auto close instead of this app all applications work perfectly many time I reinstall this app and restart my phone change all settings and give all permission but don't know why this is happening.",
+      "issue": "App crashes, won't open, or freezes",
+      "owner": "Engineering",
+      "severity": 2,
+      "safety": false,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=94e458f1-8b57-4818-9897-6b2b74423779",
+      "draft": "We understand the app is crashing when you try to open it. Please email app@moveinsync.com with your phone model and Android version so we can investigate.",
+      "draftKind": "llm"
+    },
+    {
+      "id": "24e5124e-0a01-4973-bba1-838cb9a99377",
+      "date": "2026-11-18",
+      "stars": 1,
+      "version": null,
+      "text": "not able to login. not getting otp on mobile text or whatsapp or email. how can i use it??",
+      "issue": "Login, OTP, or getting logged out",
+      "owner": "Engineering",
+      "severity": 2,
+      "safety": false,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=24e5124e-0a01-4973-bba1-838cb9a99377",
+      "draft": "We understand you're not receiving OTPs for login. Please email app@moveinsync.com with your registered mobile number and email ID so we can investigate this issue.",
+      "draftKind": "llm"
+    },
+    {
+      "id": "feb14ac3-6533-4b2d-aaa6-b9f85d252be1",
+      "date": "2026-11-16",
+      "stars": 2,
+      "version": "12.22.0",
+      "text": "The cab icon is somewhere else and the actual location of the cab is somewhere else. How are we supposed to track our ride like this?",
+      "issue": "Live tracking or ETA",
+      "owner": "Engineering",
+      "severity": 2,
+      "safety": false,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=feb14ac3-6533-4b2d-aaa6-b9f85d252be1",
+      "draft": "We understand the cab icon on the map is not matching the actual vehicle location. Please email app@moveinsync.com with your registered phone number, trip date, and route details so we can investigate this tracking discrepancy.",
+      "draftKind": "llm"
+    },
+    {
+      "id": "7cbdf1b6-39da-4b7e-8135-5d3340910b95",
+      "date": "2026-11-16",
+      "stars": 2,
+      "version": "12.21.0",
+      "text": "bookings done via app are lost. u realize this very late as there is no notification",
+      "issue": "Booking or scheduling a ride",
+      "owner": "Product",
+      "severity": 2,
+      "safety": false,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7cbdf1b6-39da-4b7e-8135-5d3340910b95",
+      "draft": "We understand your concern about bookings disappearing and the lack of notifications. Please email app@moveinsync.com with your registered phone number, the date of the lost booking, and the route details so we can investigate.",
       "draftKind": "llm"
     },
     {
@@ -1236,134 +1316,64 @@
       "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=e67c643a-e883-4a06-bc2d-773f3d207980",
       "draft": "We understand the app is not opening after the update. Please email app@moveinsync.com with your phone model and Android version so we can investigate this issue.",
       "draftKind": "llm"
-    },
-    {
-      "id": "95946292-65c7-430d-b676-38fbddbd1046",
-      "date": "2026-10-24",
-      "stars": 1,
-      "version": null,
-      "text": "unable too log in and even customer care not helpful",
-      "issue": "Login, OTP, or getting logged out",
-      "owner": "Engineering",
-      "severity": 2,
-      "safety": false,
-      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=95946292-65c7-430d-b676-38fbddbd1046",
-      "draft": "We're sorry you're unable to log in. Please email app@moveinsync.com with your registered phone number so we can investigate the issue.",
-      "draftKind": "llm"
-    },
-    {
-      "id": "fb5d7503-0d59-4fd6-849f-e159629d1ebd",
-      "date": "2026-10-22",
-      "stars": 2,
-      "version": "12.20.0",
-      "text": "not able to book schedule showing I don't have any shifts..it's very hard to book cab in app",
-      "issue": "Booking or scheduling a ride",
-      "owner": "Product",
-      "severity": 2,
-      "safety": false,
-      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=fb5d7503-0d59-4fd6-849f-e159629d1ebd",
-      "draft": "We understand you're having trouble booking rides because the app indicates no shifts. Your company's transport team sets shift availability. Please contact them to clarify your shift schedule or raise this issue.",
-      "draftKind": "llm"
-    },
-    {
-      "id": "17d8c9b9-0bd1-434e-ab06-29559cb45d5d",
-      "date": "2026-10-20",
-      "stars": 1,
-      "version": "12.20.0",
-      "text": "waste app, pathetic service, no two way communication available, Drivers do not take the responsibility to reach the passenger, they stand at one random place which is no way related to the passenger location. They don't have the knowledge of reading google maps. Pathetic Response from Admin team as they keep phone switched off. This is really ridiculous and keep the blame on passenger. Hopeless Service. They do not deserve even that one star.",
-      "issue": "Driver, vehicle or cab service (operations)",
-      "owner": "Transport Ops",
-      "severity": 2,
-      "safety": false,
-      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=17d8c9b9-0bd1-434e-ab06-29559cb45d5d",
-      "draft": "We're sorry to hear about your frustrating experience with driver location and communication. Please email app@moveinsync.com with your registered phone number and the trip date/route details so we can investigate this thoroughly.",
-      "draftKind": "llm"
-    },
-    {
-      "id": "7490bd42-d3c1-4930-bc67-acead5f7ab5b",
-      "date": "2026-10-19",
-      "stars": 1,
-      "version": "12.20.0",
-      "text": "can you please look after the bug because I am unable to open this application",
-      "issue": "App crashes, won't open, or freezes",
-      "owner": "Engineering",
-      "severity": 2,
-      "safety": false,
-      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=7490bd42-d3c1-4930-bc67-acead5f7ab5b",
-      "draft": "We understand the app is crashing when you try to open it. Please email app@moveinsync.com with your phone model and Android version so we can investigate this issue.",
-      "draftKind": "llm"
-    },
-    {
-      "id": "4401a7b0-eeaa-49df-90b1-27834d95b539",
-      "date": "2026-10-19",
-      "stars": 2,
-      "version": "12.20.0",
-      "text": "Unable to Schedule Manual Pickup and drop",
-      "issue": "Booking or scheduling a ride",
-      "owner": "Product",
-      "severity": 2,
-      "safety": false,
-      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&reviewId=4401a7b0-eeaa-49df-90b1-27834d95b539",
-      "draft": "We understand you're having trouble scheduling manual pickups and drops. Please email app@moveinsync.com with your registered phone number and the specific dates/times you're trying to book.",
-      "draftKind": "llm"
     }
   ],
   "tracking": [
     {
       "issue": "App crashes, won't open, or freezes",
       "owner": "Engineering",
-      "now": 29,
-      "before": 30,
+      "now": 30,
+      "before": 29,
       "successMetric": "Crash/launch-failure mentions in 1-2★ reviews back to the pre-release share within 2 releases; user-perceived crash rate below Play's bad-behaviour threshold."
     },
     {
       "issue": "Driver, vehicle or cab service (operations)",
       "owner": "Transport Ops",
-      "now": 22,
+      "now": 21,
       "before": 22,
       "successMetric": "On-time pickup rate per client; share of ops complaints resolved in-app before they reach the Play Store."
+    },
+    {
+      "issue": "Login, OTP, or getting logged out",
+      "owner": "Engineering",
+      "now": 16,
+      "before": 14,
+      "successMetric": "OTP delivered-to-verified rate ≥ 97%; forced logouts per active user per month down 80%; login/OTP mentions in 1-2★ halved."
     },
     {
       "issue": "Support unreachable or complaint ignored",
       "owner": "Customer Implementation",
       "now": 10,
-      "before": 8,
+      "before": 10,
       "successMetric": "Helpdesk answer rate ≥ 90%; complaint status visible in-app for 100% of tickets."
-    },
-    {
-      "issue": "Login, OTP, or getting logged out",
-      "owner": "Engineering",
-      "now": 14,
-      "before": 15,
-      "successMetric": "OTP delivered-to-verified rate ≥ 97%; forced logouts per active user per month down 80%; login/OTP mentions in 1-2★ halved."
     },
     {
       "issue": "Booking or scheduling a ride",
       "owner": "Product",
       "now": 8,
-      "before": 11,
+      "before": 8,
       "successMetric": "Booking success rate per attempt; 'booked but told not booked' reports to zero; booking mentions in 1-2★ down 50%."
-    },
-    {
-      "issue": "Routing, ride length, or pickup time",
-      "owner": "Product",
-      "now": 13,
-      "before": 15,
-      "successMetric": "Share of rides over 2.5× direct time; complaints about pickup time/ride length in 1-2★ down 40%."
     },
     {
       "issue": "Confusing design or recent UI change",
       "owner": "Product",
       "now": 12,
-      "before": 13,
+      "before": 12,
       "successMetric": "Booking completion rate on the new flow ≥ old flow; 'new update worse' mentions to near zero after next release."
     },
     {
       "issue": "Live tracking or ETA",
       "owner": "Engineering",
-      "now": 11,
-      "before": 12,
+      "now": 10,
+      "before": 11,
       "successMetric": "Median ETA error at T-15 min under 4 minutes; tracking complaints in 1-2★ down 50%."
+    },
+    {
+      "issue": "Routing, ride length, or pickup time",
+      "owner": "Product",
+      "now": 9,
+      "before": 13,
+      "successMetric": "Share of rides over 2.5× direct time; complaints about pickup time/ride length in 1-2★ down 40%."
     }
   ],
   "issuesDetailed": [
@@ -1372,23 +1382,30 @@
       "label": "App crashes, won't open, or freezes",
       "owner": "Engineering",
       "stage": "Launch / stability",
-      "primaryN90": 29,
-      "mentionsN90": 31,
-      "shareOfLowWithSignalPct": 19.2,
-      "last30N": 6,
-      "last30Pct": 10.9,
+      "primaryN90": 30,
+      "mentionsN90": 32,
+      "shareOfLowWithSignalPct": 20.5,
+      "last30N": 7,
+      "last30Pct": 14,
       "prior60N": 23,
-      "prior60Pct": 17.7,
+      "prior60Pct": 18.1,
       "cause": "app",
-      "causeSharePct": 93.1,
-      "meanSeverity": 1.87,
+      "causeSharePct": 93.3,
+      "meanSeverity": 1.88,
       "meanConfidence": 0.97,
       "affectedVersions": "12.19.0 (10); 12.20.0 (5); 12.18.1 (4)",
-      "dateRange": "2026-08-17 to 2026-11-11",
+      "dateRange": "2026-08-26 to 2026-11-21",
       "devices": "oneplus (1); pixel (1); vivo (1); android 17 (1)",
       "confidence": "high",
-      "priority": 28.1,
+      "priority": 29.1,
       "examples": [
+        {
+          "id": "94e458f1-8b57-4818-9897-6b2b74423779",
+          "date": "2026-11-18",
+          "version": "12.22.0",
+          "stars": 1,
+          "text": "application not working, while I am trying to open this app in my phone application will auto close instead of this app all applications work perfectly many time I reinstall this app and restart my phone change all settings and give all permission but don't know why this is happening."
+        },
         {
           "id": "bd2d3dd2-2098-443e-8594-cd31210aa22b",
           "date": "2026-09-16",
@@ -1402,13 +1419,6 @@
           "version": "12.18.1",
           "stars": 1,
           "text": "Move in sync app after every couple of days when I try to use it it shows unable to open as the app was not downloaded from play store which is a fake msg. Hence ever time this happens I have to uninstall it and then reinstall. Need a permanent fix to this problem."
-        },
-        {
-          "id": "145e34ef-5530-438b-bb8b-9dff2aed6e90",
-          "date": "2026-09-18",
-          "version": "12.18.1",
-          "stars": 1,
-          "text": "first if the all the app itself is garbage , would crash after every 20days. Then the service , I dont know why companies even go with these retarded service , no ethics and no responsibility at all. Companies should absolutely avoid"
         }
       ],
       "playbook": {
@@ -1424,23 +1434,30 @@
       "label": "Driver, vehicle or cab service (operations)",
       "owner": "Transport Ops",
       "stage": "On-ground service (ops)",
-      "primaryN90": 22,
-      "mentionsN90": 41,
-      "shareOfLowWithSignalPct": 14.6,
-      "last30N": 7,
-      "last30Pct": 12.7,
-      "prior60N": 15,
-      "prior60Pct": 11.5,
+      "primaryN90": 21,
+      "mentionsN90": 36,
+      "shareOfLowWithSignalPct": 14.4,
+      "last30N": 4,
+      "last30Pct": 8,
+      "prior60N": 17,
+      "prior60Pct": 13.4,
       "cause": "ops",
-      "causeSharePct": 90.9,
-      "meanSeverity": 1.56,
+      "causeSharePct": 90.5,
+      "meanSeverity": 1.58,
       "meanConfidence": 0.77,
-      "affectedVersions": "12.20.0 (9); 12.17.0 (7); 12.18.0 (6)",
-      "dateRange": "2026-08-19 to 2026-11-13",
+      "affectedVersions": "12.20.0 (9); 12.18.0 (6); 12.19.0 (5)",
+      "dateRange": "2026-08-24 to 2026-11-21",
       "devices": "",
       "confidence": "medium",
-      "priority": 24.6,
+      "priority": 22.5,
       "examples": [
+        {
+          "id": "f95dba5f-47c6-4857-9f49-afb6338e1ea8",
+          "date": "2026-11-13",
+          "version": "12.21.0",
+          "stars": 1,
+          "text": "worst experience... if I have an option to switch to personal transport that would be a Great option for me... cab drivers call receive nahi karte... ek cab me 4male hote hai ek female hoti hai nahi to 2 female 3 male... how can a female passenger sits comfortably at last seat... they have to make 2 passengers at last only so that if some one wants to rest they can sit easily... seriously I don't want to use this transport!!"
+        },
         {
           "id": "fb887543-7a35-42b3-9490-f61c28b841d9",
           "date": "2026-09-15",
@@ -1454,13 +1471,6 @@
           "version": "12.20.0",
           "stars": 1,
           "text": "waste app, pathetic service, no two way communication available, Drivers do not take the responsibility to reach the passenger, they stand at one random place which is no way related to the passenger location. They don't have the knowledge of reading google maps. Pathetic Response from Admin team as they keep phone switched off. This is really ridiculous and keep the blame on passenger. Hopeless Service. They do not deserve even that one star."
-        },
-        {
-          "id": "f95dba5f-47c6-4857-9f49-afb6338e1ea8",
-          "date": "2026-11-13",
-          "version": "12.21.0",
-          "stars": 1,
-          "text": "worst experience... if I have an option to switch to personal transport that would be a Great option for me... cab drivers call receive nahi karte... ek cab me 4male hote hai ek female hoti hai nahi to 2 female 3 male... how can a female passenger sits comfortably at last seat... they have to make 2 passengers at last only so that if some one wants to rest they can sit easily... seriously I don't want to use this transport!!"
         }
       ],
       "playbook": {
@@ -1472,78 +1482,26 @@
       }
     },
     {
-      "issue": "support_escalation",
-      "label": "Support unreachable or complaint ignored",
-      "owner": "Customer Implementation",
-      "stage": "Support / escalation",
-      "primaryN90": 10,
-      "mentionsN90": 27,
-      "shareOfLowWithSignalPct": 6.6,
-      "last30N": 4,
-      "last30Pct": 7.3,
-      "prior60N": 6,
-      "prior60Pct": 4.6,
-      "cause": "app",
-      "causeSharePct": 60,
-      "meanSeverity": 1.7,
-      "meanConfidence": 0.84,
-      "affectedVersions": "12.19.0 (5); 12.17.0 (5); 12.20.0 (4)",
-      "dateRange": "2026-08-17 to 2026-11-12",
-      "devices": "",
-      "confidence": "medium",
-      "priority": 15.7,
-      "examples": [
-        {
-          "id": "f61b87be-2625-4997-88c2-421a89dd01fe",
-          "date": "2026-08-17",
-          "version": "12.17.0",
-          "stars": 1,
-          "text": "This is a third class app which is not at all user friendly for employees, this is just made to the convenience of vendors,Help desk and vendors are not at all helpful on this app...they don't even consider your concerns.... worst transportation app I've ever used."
-        },
-        {
-          "id": "8018129f-9ca4-4d16-8b16-575d62c5f6b2",
-          "date": "2026-08-29",
-          "version": null,
-          "stars": 1,
-          "text": "Always help desk number is not reachable and for updating the mobile number is also not available 😕 😔 and for adhoc cab booking also not available via movei n syn app"
-        },
-        {
-          "id": "225d87f1-5d2f-4d23-ac26-ecda35211579",
-          "date": "2026-10-07",
-          "version": "12.20.0",
-          "stars": 1,
-          "text": "This application and also your transport management which very bad, they are not ready to help to employees. They all are only thinking about our benefits. That's it."
-        }
-      ],
-      "playbook": {
-        "stage": "Support / escalation",
-        "app_side_fix": "Show the right helpdesk for the employee's company with hours and call-back; in-app complaint with status tracking.",
-        "first_diagnostic_check": "Helpdesk answer rate and abandoned calls by client; complaint resolution time.",
-        "missing_data": "Call-centre logs; ticket volume and resolution time per client.",
-        "success_metric": "Helpdesk answer rate ≥ 90%; complaint status visible in-app for 100% of tickets."
-      }
-    },
-    {
       "issue": "login_otp_session",
       "label": "Login, OTP, or getting logged out",
       "owner": "Engineering",
       "stage": "Login / OTP",
-      "primaryN90": 14,
-      "mentionsN90": 17,
-      "shareOfLowWithSignalPct": 9.3,
-      "last30N": 3,
-      "last30Pct": 5.5,
+      "primaryN90": 16,
+      "mentionsN90": 19,
+      "shareOfLowWithSignalPct": 11,
+      "last30N": 5,
+      "last30Pct": 10,
       "prior60N": 11,
-      "prior60Pct": 8.5,
+      "prior60Pct": 8.7,
       "cause": "app",
-      "causeSharePct": 92.9,
-      "meanSeverity": 1.88,
-      "meanConfidence": 0.84,
+      "causeSharePct": 93.8,
+      "meanSeverity": 1.89,
+      "meanConfidence": 0.85,
       "affectedVersions": "12.17.0 (4); 12.19.0 (3); 12.20.0 (2)",
-      "dateRange": "2026-09-02 to 2026-11-01",
+      "dateRange": "2026-09-02 to 2026-11-20",
       "devices": "",
       "confidence": "medium",
-      "priority": 14.6,
+      "priority": 16.5,
       "examples": [
         {
           "id": "9cc57ff9-b914-4cd2-b4c3-6bedb8993771",
@@ -1576,23 +1534,75 @@
       }
     },
     {
+      "issue": "support_escalation",
+      "label": "Support unreachable or complaint ignored",
+      "owner": "Customer Implementation",
+      "stage": "Support / escalation",
+      "primaryN90": 10,
+      "mentionsN90": 25,
+      "shareOfLowWithSignalPct": 6.8,
+      "last30N": 5,
+      "last30Pct": 10,
+      "prior60N": 5,
+      "prior60Pct": 3.9,
+      "cause": "ops",
+      "causeSharePct": 50,
+      "meanSeverity": 1.68,
+      "meanConfidence": 0.85,
+      "affectedVersions": "12.19.0 (5); 12.20.0 (4); 12.18.0 (4)",
+      "dateRange": "2026-08-27 to 2026-11-21",
+      "devices": "",
+      "confidence": "medium",
+      "priority": 14.7,
+      "examples": [
+        {
+          "id": "b19ecb34-258b-478e-b9d0-8ad1c1ea6df0",
+          "date": "2026-11-21",
+          "version": "12.0",
+          "stars": 1,
+          "text": "The app appears to be heavily biased towards drivers. No action is taken against drivers even when passengers raise complaints through the app. Most of the features seem designed to benefit drivers, while passenger concerns and grievances are consistently ignored."
+        },
+        {
+          "id": "8018129f-9ca4-4d16-8b16-575d62c5f6b2",
+          "date": "2026-08-29",
+          "version": null,
+          "stars": 1,
+          "text": "Always help desk number is not reachable and for updating the mobile number is also not available 😕 😔 and for adhoc cab booking also not available via movei n syn app"
+        },
+        {
+          "id": "225d87f1-5d2f-4d23-ac26-ecda35211579",
+          "date": "2026-10-07",
+          "version": "12.20.0",
+          "stars": 1,
+          "text": "This application and also your transport management which very bad, they are not ready to help to employees. They all are only thinking about our benefits. That's it."
+        }
+      ],
+      "playbook": {
+        "stage": "Support / escalation",
+        "app_side_fix": "Show the right helpdesk for the employee's company with hours and call-back; in-app complaint with status tracking.",
+        "first_diagnostic_check": "Helpdesk answer rate and abandoned calls by client; complaint resolution time.",
+        "missing_data": "Call-centre logs; ticket volume and resolution time per client.",
+        "success_metric": "Helpdesk answer rate ≥ 90%; complaint status visible in-app for 100% of tickets."
+      }
+    },
+    {
       "issue": "booking_schedule",
       "label": "Booking or scheduling a ride",
       "owner": "Product",
       "stage": "Booking",
       "primaryN90": 8,
       "mentionsN90": 19,
-      "shareOfLowWithSignalPct": 5.3,
-      "last30N": 3,
-      "last30Pct": 5.5,
-      "prior60N": 5,
-      "prior60Pct": 3.8,
+      "shareOfLowWithSignalPct": 5.5,
+      "last30N": 2,
+      "last30Pct": 4,
+      "prior60N": 6,
+      "prior60Pct": 4.7,
       "cause": "app",
       "causeSharePct": 87.5,
       "meanSeverity": 1.84,
-      "meanConfidence": 0.81,
+      "meanConfidence": 0.8,
       "affectedVersions": "12.20.0 (6); 12.19.0 (4); 12.18.0 (4)",
-      "dateRange": "2026-08-23 to 2026-11-04",
+      "dateRange": "2026-08-29 to 2026-11-16",
       "devices": "",
       "confidence": "low",
       "priority": 12.4,
@@ -1628,78 +1638,26 @@
       }
     },
     {
-      "issue": "routing_pickup_time",
-      "label": "Routing, ride length, or pickup time",
-      "owner": "Product",
-      "stage": "Routing / pickup time",
-      "primaryN90": 13,
-      "mentionsN90": 20,
-      "shareOfLowWithSignalPct": 8.6,
-      "last30N": 3,
-      "last30Pct": 5.5,
-      "prior60N": 10,
-      "prior60Pct": 7.7,
-      "cause": "ops",
-      "causeSharePct": 46.2,
-      "meanSeverity": 1.3,
-      "meanConfidence": 0.92,
-      "affectedVersions": "12.17.0 (9); 12.19.0 (4); 12.20.0 (2)",
-      "dateRange": "2026-08-19 to 2026-11-12",
-      "devices": "",
-      "confidence": "medium",
-      "priority": 10.7,
-      "examples": [
-        {
-          "id": "d90a3c31-8385-4613-b575-85002f768a9b",
-          "date": "2026-08-21",
-          "version": "12.17.0",
-          "stars": 1,
-          "text": "works well overall, but they don't listen to feedback. for example, pick ups from same apartment complex are scheduled with difference of upto 5 minutes. So, I come to the cab everyday, and wait 5 minutes for next passanger, and then another 5 minutes for the third passanger coming from same building. the third passanger can come upto 5 minutes late. so, I have waiting time of 10-15 minutes everyday just sitting in the cab. They don't care enough to fix it even after raising it 100s of times."
-        },
-        {
-          "id": "1239e342-ffd6-4a27-b815-54f7f3711b06",
-          "date": "2026-09-15",
-          "version": "12.18.0",
-          "stars": 1,
-          "text": "When trying to reach helpdesk, the line disconnects. Cab ETA keeps changing and the worst part is routing & pickup timings, spending over 2 hours to reach office with in Gurugram"
-        },
-        {
-          "id": "6d759825-2dec-409b-b559-bf0eb8f02f7d",
-          "date": "2026-10-16",
-          "version": "12.20.0",
-          "stars": 1,
-          "text": "Genpact cabs can make u travel through the entire city With charging. Sequences are like wow."
-        }
-      ],
-      "playbook": {
-        "stage": "Routing / pickup time",
-        "app_side_fix": "Explain each pickup time (stop N of M, client buffer), show expected ride time at booking, rotate first-pickup position, flag rides over 2.5× the direct time.",
-        "first_diagnostic_check": "Per employee: ride time vs direct-trip time and route position over the last month, per client.",
-        "missing_data": "Route plans with per-rider ride time and position; client settings for buffers, fleet size, max ride time.",
-        "success_metric": "Share of rides over 2.5× direct time; complaints about pickup time/ride length in 1-2★ down 40%."
-      }
-    },
-    {
       "issue": "ui_confusing",
       "label": "Confusing design or recent UI change",
       "owner": "Product",
       "stage": "Usability / redesign",
       "primaryN90": 12,
-      "mentionsN90": 21,
-      "shareOfLowWithSignalPct": 7.9,
-      "last30N": 4,
-      "last30Pct": 7.3,
-      "prior60N": 8,
-      "prior60Pct": 6.2,
+      "mentionsN90": 22,
+      "shareOfLowWithSignalPct": 8.2,
+      "last30N": 2,
+      "last30Pct": 4,
+      "prior60N": 10,
+      "prior60Pct": 7.9,
       "cause": "app",
       "causeSharePct": 91.7,
-      "meanSeverity": 1.29,
+      "meanSeverity": 1.32,
       "meanConfidence": 0.82,
       "affectedVersions": "12.19.0 (7); 12.20.0 (4); 12.18.1 (3)",
-      "dateRange": "2026-08-27 to 2026-11-03",
+      "dateRange": "2026-08-27 to 2026-11-16",
       "devices": "",
       "confidence": "medium",
-      "priority": 10.6,
+      "priority": 11.2,
       "examples": [
         {
           "id": "5f781610-319a-4412-b308-95a6ec8ee6f6",
@@ -1736,22 +1694,22 @@
       "label": "Live tracking or ETA",
       "owner": "Engineering",
       "stage": "Live tracking / ETA",
-      "primaryN90": 11,
-      "mentionsN90": 19,
-      "shareOfLowWithSignalPct": 7.3,
+      "primaryN90": 10,
+      "mentionsN90": 17,
+      "shareOfLowWithSignalPct": 6.8,
       "last30N": 4,
-      "last30Pct": 7.3,
-      "prior60N": 7,
-      "prior60Pct": 5.4,
+      "last30Pct": 8,
+      "prior60N": 6,
+      "prior60Pct": 4.7,
       "cause": "app",
       "causeSharePct": 100,
-      "meanSeverity": 1.32,
-      "meanConfidence": 0.89,
-      "affectedVersions": "12.19.0 (6); 12.17.0 (5); 12.21.0 (2)",
-      "dateRange": "2026-08-17 to 2026-11-14",
-      "devices": "samsung (1)",
+      "meanSeverity": 1.29,
+      "meanConfidence": 0.87,
+      "affectedVersions": "12.19.0 (6); 12.22.0 (2); 12.21.0 (2)",
+      "dateRange": "2026-08-24 to 2026-11-16",
+      "devices": "",
       "confidence": "medium",
-      "priority": 9.9,
+      "priority": 8.7,
       "examples": [
         {
           "id": "f7ae1a95-7a1f-4e35-925f-7ff1a99f6922",
@@ -1768,11 +1726,11 @@
           "text": "This app is worstly designed for office employees it will just show cab location, cab details and no of persons in cab. Main worst thing if we try to call cab driver the number won't connect. Additionally, the worst thing is we don't whether cab is started or went to office or crossed us or we missed cab. It will just show how far cab is away from us, it won't show whether cab moved a head or not. Short time your company got good customer base don't spoil it."
         },
         {
-          "id": "79708a81-7362-4207-be30-f7817b66eb16",
-          "date": "2026-08-19",
-          "version": "12.17.0",
+          "id": "2ce14584-824f-4d19-a7ce-95a17656fc8f",
+          "date": "2026-10-08",
+          "version": "12.19.0",
           "stars": 1,
-          "text": "Worthless app..Driver arrival shows in 5mins when we leave home to the pick point changes to 30mins..I mean changing to another 5mins makes sense but 30mins is way too much...most of the time this happens"
+          "text": "ETA calculator very bad. not sure on what basis its done. google maps always shows 3x the time shown in moveinsync app. tnis app just acts as a booking tool and no use of showing car location and eta."
         }
       ],
       "playbook": {
@@ -1784,107 +1742,55 @@
       }
     },
     {
-      "issue": "safety_incident",
-      "label": "Safety concern",
-      "owner": "Safety",
-      "stage": "Safety",
-      "primaryN90": 3,
-      "mentionsN90": 11,
-      "shareOfLowWithSignalPct": 2,
-      "last30N": 2,
-      "last30Pct": 3.6,
-      "prior60N": 1,
-      "prior60Pct": 0.8,
-      "cause": "ops",
-      "causeSharePct": 100,
-      "meanSeverity": 2.45,
-      "meanConfidence": 0.89,
-      "affectedVersions": "12.21.0 (2); 12.17.0 (2); 12.22.0 (1)",
-      "dateRange": "2026-08-19 to 2026-11-13",
-      "devices": "",
-      "confidence": "low",
-      "priority": 8.6,
-      "examples": [
-        {
-          "id": "5aa2f5ac-fe85-4686-9165-3f83880e31db",
-          "date": "2026-11-12",
-          "version": "12.22.0",
-          "stars": 1,
-          "text": "Poor service with rude drivers that deviate from route because \"I don't tell them\" where to go even though the trip states how the route will go. Experienced the most racist ride which ended with me getting off very far from where I stay as the driver wanted to go drop his unauthorized friend. I got robbed reported the natter but they just don't care, just keep deleting my reviews."
-        },
-        {
-          "id": "c789c25d-4efe-4fd4-8986-de67be5beeba",
-          "date": "2026-08-24",
-          "version": "12.17.0",
-          "stars": 1,
-          "text": "Driver for cab number HR 47-G-7055 is ridiculous.dont hire people with no manners .misbehaved with girl employee. dropped before location. Please escalate it further and let me know the action"
-        },
-        {
-          "id": "cc7976d6-78fd-41d4-936d-2476e3e0326b",
-          "date": "2026-11-11",
-          "version": null,
-          "stars": 1,
-          "text": "pathetic service, today a cab driver ran without picking me up and a girl. Think of women safety if drivers are doing this to us. There's no resolution if someone does something like this."
-        }
-      ],
-      "playbook": {
-        "stage": "Safety",
-        "app_side_fix": "Visible SOS and escort status; every safety mention in a review triggers an internal incident check within 24h.",
-        "first_diagnostic_check": "Match each safety-related review to trips by date/route where possible; review the SOS flow end to end.",
-        "missing_data": "Safety incident log; SOS usage.",
-        "success_metric": "100% of safety reviews acknowledged within 24h and investigated."
-      }
-    },
-    {
-      "issue": "notifications",
-      "label": "Notifications",
+      "issue": "routing_pickup_time",
+      "label": "Routing, ride length, or pickup time",
       "owner": "Product",
-      "stage": "Notifications",
-      "primaryN90": 7,
+      "stage": "Routing / pickup time",
+      "primaryN90": 9,
       "mentionsN90": 15,
-      "shareOfLowWithSignalPct": 4.6,
-      "last30N": 1,
-      "last30Pct": 1.8,
-      "prior60N": 6,
-      "prior60Pct": 4.6,
+      "shareOfLowWithSignalPct": 6.2,
+      "last30N": 2,
+      "last30Pct": 4,
+      "prior60N": 7,
+      "prior60Pct": 5.5,
       "cause": "app",
-      "causeSharePct": 100,
-      "meanSeverity": 1.53,
+      "causeSharePct": 55.6,
+      "meanSeverity": 1.4,
       "meanConfidence": 0.96,
-      "affectedVersions": "12.17.0 (5); 12.18.1 (3); 12.19.0 (2)",
-      "dateRange": "2026-08-17 to 2026-11-09",
+      "affectedVersions": "12.19.0 (4); 12.17.0 (4); 12.20.0 (2)",
+      "dateRange": "2026-08-24 to 2026-11-12",
       "devices": "",
       "confidence": "low",
       "priority": 8.4,
       "examples": [
         {
-          "id": "b1814d48-3e54-4903-a109-e09e05bc3145",
-          "date": "2026-09-09",
-          "version": null,
-          "stars": 2,
-          "text": "Too much pop up notification, which won't close easily. even you close the app and restart again it will show pop up notification nothing to display but no close option. frustrating experience. If someone needs to use SOS button, he/she can not use in timely manner due to useless notification pop ups"
+          "id": "1239e342-ffd6-4a27-b815-54f7f3711b06",
+          "date": "2026-09-15",
+          "version": "12.18.0",
+          "stars": 1,
+          "text": "When trying to reach helpdesk, the line disconnects. Cab ETA keeps changing and the worst part is routing & pickup timings, spending over 2 hours to reach office with in Gurugram"
         },
         {
-          "id": "0b1041ae-ce09-4947-b5f9-744e9014a639",
-          "date": "2026-09-17",
-          "version": "12.18.1",
-          "stars": 2,
-          "text": "you guys keep giving notifications to cancel the ride if not available for the same, but you don't even bother to remind the user regarding the default cancellation of logout trip if login trip is marked \"Noshow\", this is not fair at all"
-        },
-        {
-          "id": "43d90b3c-0443-4073-8647-6aee98c78bd4",
-          "date": "2026-10-24",
+          "id": "6d759825-2dec-409b-b559-bf0eb8f02f7d",
+          "date": "2026-10-16",
           "version": "12.20.0",
-          "stars": 2,
-          "text": "still irritating push message of trip is not booked despite having valid trip booked. 06-10-2026 even after booked the trip it keep sends the push notification that trip is not booked. old: Bring monthly view ,not just day view..."
+          "stars": 1,
+          "text": "Genpact cabs can make u travel through the entire city With charging. Sequences are like wow."
+        },
+        {
+          "id": "7476b129-f0da-458e-8f86-d77ba2f9a710",
+          "date": "2026-10-09",
+          "version": "12.19.0",
+          "stars": 1,
+          "text": "MoveOutSync doesn't plan commutes; it plans cross-country pilgrimages. The ETA is an abstract joke where a 1-hour delay is considered punctual. The routing algorithm is pure genius: it clubs passengers from two different states into one cab at 8 AM, while empty cabs glide right past us. If you want a free Bharat Darshan tour before reaching office, this is it. Coding isn't for everyone-definitely not for the monkeys who built this. Try copying Routematic fools."
         }
       ],
       "playbook": {
-        "stage": "Notifications",
-        "app_side_fix": "Rate-limit repeat alerts (one delay alert per material change), make notifications dismissible and grouped.",
-        "first_diagnostic_check": "Notifications sent per trip by type; repeat-alert counts per trip.",
-        "missing_data": "Notification send logs by type.",
-        "success_metric": "Notifications per trip down; notification complaints in reviews to near zero."
+        "stage": "Routing / pickup time",
+        "app_side_fix": "Explain each pickup time (stop N of M, client buffer), show expected ride time at booking, rotate first-pickup position, flag rides over 2.5× the direct time.",
+        "first_diagnostic_check": "Per employee: ride time vs direct-trip time and route position over the last month, per client.",
+        "missing_data": "Route plans with per-rider ride time and position; client settings for buffers, fleet size, max ride time.",
+        "success_metric": "Share of rides over 2.5× direct time; complaints about pickup time/ride length in 1-2★ down 40%."
       }
     },
     {
@@ -1893,21 +1799,21 @@
       "owner": "Product",
       "stage": "Boarding / check-in",
       "primaryN90": 4,
-      "mentionsN90": 12,
-      "shareOfLowWithSignalPct": 2.6,
+      "mentionsN90": 13,
+      "shareOfLowWithSignalPct": 2.7,
       "last30N": 2,
-      "last30Pct": 3.6,
+      "last30Pct": 4,
       "prior60N": 2,
-      "prior60Pct": 1.5,
+      "prior60Pct": 1.6,
       "cause": "app",
       "causeSharePct": 75,
-      "meanSeverity": 1.83,
+      "meanSeverity": 1.85,
       "meanConfidence": 0.74,
-      "affectedVersions": "12.17.0 (4); 12.20.0 (2); 12.19.0 (1)",
-      "dateRange": "2026-09-02 to 2026-11-05",
+      "affectedVersions": "12.17.0 (4); 12.20.0 (2); 12.22.0 (1)",
+      "dateRange": "2026-09-02 to 2026-11-20",
       "devices": "",
       "confidence": "low",
-      "priority": 7.3,
+      "priority": 7.9,
       "examples": [
         {
           "id": "e12ed49a-d376-4cf2-9cfd-45cae0162feb",
@@ -1940,26 +1846,130 @@
       }
     },
     {
+      "issue": "notifications",
+      "label": "Notifications",
+      "owner": "Product",
+      "stage": "Notifications",
+      "primaryN90": 6,
+      "mentionsN90": 14,
+      "shareOfLowWithSignalPct": 4.1,
+      "last30N": 1,
+      "last30Pct": 2,
+      "prior60N": 5,
+      "prior60Pct": 3.9,
+      "cause": "app",
+      "causeSharePct": 100,
+      "meanSeverity": 1.57,
+      "meanConfidence": 0.98,
+      "affectedVersions": "12.18.1 (3); 12.17.0 (3); 12.19.0 (2)",
+      "dateRange": "2026-09-02 to 2026-11-16",
+      "devices": "",
+      "confidence": "low",
+      "priority": 7.9,
+      "examples": [
+        {
+          "id": "b1814d48-3e54-4903-a109-e09e05bc3145",
+          "date": "2026-09-09",
+          "version": null,
+          "stars": 2,
+          "text": "Too much pop up notification, which won't close easily. even you close the app and restart again it will show pop up notification nothing to display but no close option. frustrating experience. If someone needs to use SOS button, he/she can not use in timely manner due to useless notification pop ups"
+        },
+        {
+          "id": "0b1041ae-ce09-4947-b5f9-744e9014a639",
+          "date": "2026-09-17",
+          "version": "12.18.1",
+          "stars": 2,
+          "text": "you guys keep giving notifications to cancel the ride if not available for the same, but you don't even bother to remind the user regarding the default cancellation of logout trip if login trip is marked \"Noshow\", this is not fair at all"
+        },
+        {
+          "id": "43d90b3c-0443-4073-8647-6aee98c78bd4",
+          "date": "2026-10-24",
+          "version": "12.20.0",
+          "stars": 2,
+          "text": "still irritating push message of trip is not booked despite having valid trip booked. 06-10-2026 even after booked the trip it keep sends the push notification that trip is not booked. old: Bring monthly view ,not just day view..."
+        }
+      ],
+      "playbook": {
+        "stage": "Notifications",
+        "app_side_fix": "Rate-limit repeat alerts (one delay alert per material change), make notifications dismissible and grouped.",
+        "first_diagnostic_check": "Notifications sent per trip by type; repeat-alert counts per trip.",
+        "missing_data": "Notification send logs by type.",
+        "success_metric": "Notifications per trip down; notification complaints in reviews to near zero."
+      }
+    },
+    {
+      "issue": "safety_incident",
+      "label": "Safety concern",
+      "owner": "Safety",
+      "stage": "Safety",
+      "primaryN90": 3,
+      "mentionsN90": 10,
+      "shareOfLowWithSignalPct": 2.1,
+      "last30N": 2,
+      "last30Pct": 4,
+      "prior60N": 1,
+      "prior60Pct": 0.8,
+      "cause": "ops",
+      "causeSharePct": 100,
+      "meanSeverity": 2.4,
+      "meanConfidence": 0.89,
+      "affectedVersions": "12.21.0 (2); 12.22.0 (1); 12.20.0 (1)",
+      "dateRange": "2026-08-24 to 2026-11-13",
+      "devices": "",
+      "confidence": "low",
+      "priority": 7.8,
+      "examples": [
+        {
+          "id": "5aa2f5ac-fe85-4686-9165-3f83880e31db",
+          "date": "2026-11-12",
+          "version": "12.22.0",
+          "stars": 1,
+          "text": "Poor service with rude drivers that deviate from route because \"I don't tell them\" where to go even though the trip states how the route will go. Experienced the most racist ride which ended with me getting off very far from where I stay as the driver wanted to go drop his unauthorized friend. I got robbed reported the natter but they just don't care, just keep deleting my reviews."
+        },
+        {
+          "id": "c789c25d-4efe-4fd4-8986-de67be5beeba",
+          "date": "2026-08-24",
+          "version": "12.17.0",
+          "stars": 1,
+          "text": "Driver for cab number HR 47-G-7055 is ridiculous.dont hire people with no manners .misbehaved with girl employee. dropped before location. Please escalate it further and let me know the action"
+        },
+        {
+          "id": "cc7976d6-78fd-41d4-936d-2476e3e0326b",
+          "date": "2026-11-11",
+          "version": null,
+          "stars": 1,
+          "text": "pathetic service, today a cab driver ran without picking me up and a girl. Think of women safety if drivers are doing this to us. There's no resolution if someone does something like this."
+        }
+      ],
+      "playbook": {
+        "stage": "Safety",
+        "app_side_fix": "Visible SOS and escort status; every safety mention in a review triggers an internal incident check within 24h.",
+        "first_diagnostic_check": "Match each safety-related review to trips by date/route where possible; review the SOS flow end to end.",
+        "missing_data": "Safety incident log; SOS usage.",
+        "success_metric": "100% of safety reviews acknowledged within 24h and investigated."
+      }
+    },
+    {
       "issue": "performance_slow",
       "label": "Slow, laggy, battery or data drain",
       "owner": "Engineering",
       "stage": "Performance",
-      "primaryN90": 5,
-      "mentionsN90": 6,
-      "shareOfLowWithSignalPct": 3.3,
+      "primaryN90": 4,
+      "mentionsN90": 5,
+      "shareOfLowWithSignalPct": 2.7,
       "last30N": 1,
-      "last30Pct": 1.8,
-      "prior60N": 4,
-      "prior60Pct": 3.1,
+      "last30Pct": 2,
+      "prior60N": 3,
+      "prior60Pct": 2.4,
       "cause": "app",
       "causeSharePct": 100,
       "meanSeverity": 1,
-      "meanConfidence": 0.92,
-      "affectedVersions": "12.17.0 (2); 12.20.0 (1); 12.18.1 (1)",
-      "dateRange": "2026-08-19 to 2026-10-24",
-      "devices": "oneplus (1)",
+      "meanConfidence": 0.9,
+      "affectedVersions": "12.20.0 (1); 12.18.1 (1); 12.18.0 (1)",
+      "dateRange": "2026-08-27 to 2026-10-24",
+      "devices": "",
       "confidence": "low",
-      "priority": 2.8,
+      "priority": 2.3,
       "examples": [
         {
           "id": "8603b38c-ead5-4531-9dc4-32005c9d345f",
@@ -1976,11 +1986,11 @@
           "text": "Worst app. Very very slow. Show Address is navigating 4 times to the same screen."
         },
         {
-          "id": "81c1530f-e7fd-40c9-866a-49d248c31c28",
-          "date": "2026-08-19",
-          "version": "12.17.0",
+          "id": "f01b63b7-917d-477d-9b44-cbae0f383bae",
+          "date": "2026-08-30",
+          "version": "12.18.0",
           "stars": 1,
-          "text": "The app is running/loading slow on my OnePlus 13"
+          "text": "loads info very slow, to do the booking."
         }
       ],
       "playbook": {
